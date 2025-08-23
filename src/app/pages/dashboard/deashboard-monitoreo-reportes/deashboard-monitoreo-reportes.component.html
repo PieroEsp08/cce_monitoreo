@@ -1,0 +1,69 @@
+<div class="filters-container">
+  <!-- Filtro por fechas -->
+  <div class="filter-item">
+    <label for="fechaInicio">Desde:</label>
+    <input type="date" id="fechaInicio" [(ngModel)]="filtros.fechaInicio">
+  </div>
+
+  <div class="filter-item">
+    <label for="fechaFin">Hasta:</label>
+    <input type="date" id="fechaFin" [(ngModel)]="filtros.fechaFin">
+  </div>
+
+  <!-- Filtro por estado -->
+  <div class="filter-item">
+    <label for="estado">Estado:</label>
+    <select id="estado" [(ngModel)]="filtros.estado">
+      <option value="">Todos</option>
+      <option value="Completado">Completado</option>
+      <option value="Observaciones">Con observaciones</option>
+    </select>
+  </div>
+
+  <!-- Filtro por banco -->
+  <div class="filter-item">
+    <label for="banco">Banco:</label>
+    <select id="banco" [(ngModel)]="filtros.banco">
+      <option value="">Todos</option>
+      <option *ngFor="let banco of bancos" [value]="banco">{{ banco }}</option>
+    </select>
+  </div>
+
+  <!-- Botón -->
+  <div class="filter-item filter-button">
+    <button (click)="aplicarFiltros()">Filtrar</button>
+  </div>
+</div>
+
+<!-- Tu tabla -->
+<div class="table-container">
+  <table class="report-table">
+    <thead>
+      <tr>
+        <th>Nombre del Reporte</th>
+        <th>Proceso Origen</th>
+        <th>Fecha de Generación</th>
+        <th>Estado</th>
+        <th>Formato</th>
+        <th>Tamaño</th>
+        <th>Descargar</th>
+        <th>Ver Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="registros.length === 0">
+        <td colspan="8" class="no-data">No hay registros disponibles</td>
+      </tr>
+      <tr *ngFor="let reporte of registros">
+        <td>{{ reporte.nombre }}</td>
+        <td>{{ reporte.procesoOrigen }}</td>
+        <td>{{ reporte.fechaGeneracion | date:'yyyy-MM-dd' }}</td>
+        <td>{{ reporte.estado }}</td>
+        <td>{{ reporte.formato }}</td>
+        <td>{{ reporte.tamanio }}</td>
+        <td><a [href]="reporte.enlaceDescarga" target="_blank">Descargar</a></td>
+        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

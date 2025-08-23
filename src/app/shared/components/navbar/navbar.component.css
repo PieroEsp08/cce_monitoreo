@@ -1,0 +1,18 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-bottom: 1px solid #dee2e6;
+  height: 64px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.custom-navbar .btn-outline-exit {
+  background-color: #6c757d;
+  border: 1px solid;
+  color: white;
+  transition: all 0.3s ease;
+}

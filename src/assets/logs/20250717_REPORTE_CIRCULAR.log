@@ -1,0 +1,741 @@
+20250717.093128.info       | Validando conexión a base de datos directorio...
+20250717.093128.info       | Validando conexión a base de datos transaccional...
+20250717.093128.info       | Procesando Archivo entidades.dat...
+20250717.093128.info       | Ocurrio un error al procesar el archivo entidades.dat ó direcotios.dat [.\data\entidades.dat (El sistema no puede encontrar el archivo especificado)]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+20250717.093132.info       | Validando conexión a base de datos directorio...
+20250717.093132.info       | Validando conexión a base de datos transaccional...
+20250717.093132.info       | Procesando Archivo entidades.dat...
+20250717.093132.info       | Ocurrio un error al procesar el archivo entidades.dat ó direcotios.dat [.\data\entidades.dat (El sistema no puede encontrar el archivo especificado)]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+20250717.093136.info       | Validando conexión a base de datos directorio...
+20250717.093136.info       | Validando conexión a base de datos transaccional...
+20250717.093136.info       | Procesando Archivo entidades.dat...
+20250717.093136.info       | Ocurrio un error al procesar el archivo entidades.dat ó direcotios.dat [.\data\entidades.dat (El sistema no puede encontrar el archivo especificado)]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.main(ReporteCircularBcrpApplication.java:55) ~[classes!/:1.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[reporte_circular_bcrp.jar:1.0]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[reporte_circular_bcrp.jar:1.0]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.circular.bcrp.ReporteCircularBcrpApplication.run(ReporteCircularBcrpApplication.java:96) ~[classes!/:1.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar!/:2.7.14]
+	... 13 more
+20250717.094033.info       | Validando conexión a base de datos directorio...
+20250717.094033.info       | Validando conexión a base de datos transaccional...
+20250717.094033.info       | Procesando Archivo entidades.dat...
+20250717.094033.info       | Validando y creando tablas para  BD H2... 
+20250717.094033.info       | Ejecutando truncate para datos de BD H2...
+20250717.094033.info       | Reporte Circular BCRP
+20250717.094033.info       | Fecha y hora de procesamiento: 2025-07-17 09:40
+20250717.094033.info       | Fecha de operación: 20250716
+20250717.094033.info       | Zona Horaria: America/Lima
+20250717.094033.info       | Codificación : windows-1252
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Anexo [21] - CCE_DNM_DATOS_PROV_DIRE - REPORTE 01
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Etapa: BARRIDO | Componente: PRXLOOKUP
+20250717.094033.info       | Hora de Inicio: 09:40:34
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [1053] | total de registros guardados [1053]
+20250717.094033.info       | Registros Guardados en H2: 1053
+20250717.094033.info       | Hora de Fin: 09:40:34 | Duración: 00:00 | Registros Procesados: 1053
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | Etapa: BARRIDO | Componente: PRXYLOOKUPRSPN
+20250717.094033.info       | Hora de Inicio: 09:40:34
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [907] | total de registros guardados [907]
+20250717.094033.info       | Registros Guardados en H2: 907
+20250717.094033.info       | Hora de Fin: 09:40:34 | Duración: 00:00 | Registros Procesados: 907
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | GENERACIÓN DE REPORTE
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Archivo: CCE_DNM_DATOS_PROV_DIRE_16072025
+20250717.094033.info       | Hora de Inicio: 09:40:34
+20250717.094033.info       | Agregando registros al archivo csv | cantidad de reg. [1053] | total de registros agregados [1053]
+20250717.094033.info       | Registros Agregados al CSV: 1053
+20250717.094033.info       | Hora de Fin: 09:40:34 | Duración: 00:00 | Registros en reporte: 1053
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | ELIMINACIÓN DE DATOS
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Etapa: BARRIDO | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250717.094033.info       | Hora de Inicio: 09:40:34
+20250717.094033.info       | Hora de Fin: 09:40:34 | Duración: 00:00
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Etapa: LOOKUP | Componente: PRXLOOKUP
+20250717.094033.info       | Hora de Inicio: 09:40:34
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [817] | total de registros guardados [10817]
+20250717.094033.info       | Registros Guardados en H2: 10817
+20250717.094033.info       | Hora de Fin: 09:40:35 | Duración: 00:00 | Registros Procesados: 10817
+20250717.094033.info       | 
+20250717.094033.info       | Etapa: LOOKUP | Componente: PRXYLOOKUPRSPN
+20250717.094033.info       | Hora de Inicio: 09:40:35
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094033.info       | Guardando registros en h2 | cantidad de reg. [810] | total de registros guardados [10810]
+20250717.094033.info       | Registros Guardados en H2: 10810
+20250717.094033.info       | Hora de Fin: 09:40:35 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | GENERACIÓN DE REPORTE
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Archivo: CCE_DNM_DATOS_PROV_DIRE_16072025
+20250717.094033.info       | Hora de Inicio: 09:40:35
+20250717.094033.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [10000]
+20250717.094033.info       | Agregando registros al archivo csv | cantidad de reg. [817] | total de registros agregados [10817]
+20250717.094033.info       | Registros Agregados al CSV: 10817
+20250717.094033.info       | Hora de Fin: 09:40:35 | Duración: 00:00 | Registros en reporte: 10817
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.info       | ELIMINACIÓN DE DATOS
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | Etapa: LOOKUP | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250717.094033.info       | Hora de Inicio: 09:40:35
+20250717.094033.info       | Hora de Fin: 09:40:35 | Duración: 00:00
+20250717.094033.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094033.info       | 
+20250717.094033.monitoreo INICIO [09:40:33] FIN [09:40:35] ARCHIVO [CCE_DNM_DATOS_PROV_DIRE_16072025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [11870]
+20250717.094039.info       | Validando conexión a base de datos directorio...
+20250717.094039.info       | Validando conexión a base de datos transaccional...
+20250717.094039.info       | Procesando Archivo entidades.dat...
+20250717.094039.info       | Validando y creando tablas para  BD H2... 
+20250717.094039.info       | Ejecutando truncate para datos de BD H2...
+20250717.094039.info       | Reporte Circular BCRP
+20250717.094039.info       | Fecha y hora de procesamiento: 2025-07-17 09:40
+20250717.094039.info       | Fecha de operación: 20250716
+20250717.094039.info       | Zona Horaria: America/Lima
+20250717.094039.info       | Codificación : windows-1252
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Anexo [21]- CCE_DNM_INCI_PROV_DIRE - REPORTE 02
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Etapa: BARRIDO | Componente: PRXLOOKUP
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | BARRIDO | PRXYLOOKUP | CANTIDAD DE REG. [1053] | TOTAL DE REGISTROS GUARDADOS [1053]
+20250717.094039.info       | Registros Guardados en H2: 1053
+20250717.094039.info       | Hora de Fin: 09:40:40 | Duración: 00:00 | Registros Procesados: 1053
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | Etapa: BARRIDO | Componente: PRXYLOOKUPRSPN
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | BARRIDO | PRXYLOOKUPRSPN | CANTIDAD DE REG. [907] | total de registros guardados [907]
+20250717.094039.info       | Registros Guardados en H2: 907
+20250717.094039.info       | Hora de Fin: 09:40:40 | Duración: 00:00 | Registros Procesados: 907
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | GENERACIÓN DE REPORTE
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Archivo: CCE_DNM_INCI_PROV_DIRE_16072025
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | AGREGANDO REGISTROS AL ARCHIVO CSV | BARRIDO | CANTIDAD DE REG. [3] | total de registros agregados [3]
+20250717.094039.info       | Registros Agregados al CSV: 3
+20250717.094039.info       | Hora de Fin: 09:40:40 | Duración: 00:00 | Registros en reporte: 3
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | ELIMINACIÓN DE DATOS
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Etapa: BARRIDO | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | Hora de Fin: 09:40:40 | Duración: 00:00
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Etapa: LOOKUP | Componente: PRXLOOKUP
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [10000]
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [817] | total de registros guardados [10817]
+20250717.094039.info       | Registros Guardados en H2: 10817
+20250717.094039.info       | Hora de Fin: 09:40:40 | Duración: 00:00 | Registros Procesados: 10817
+20250717.094039.info       | 
+20250717.094039.info       | Etapa: LOOKUP | Componente: PRXYLOOKUPRSPN
+20250717.094039.info       | Hora de Inicio: 09:40:40
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [10000]
+20250717.094039.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [810] | total de registros guardados [10810]
+20250717.094039.info       | Registros Guardados en H2: 10810
+20250717.094039.info       | Hora de Fin: 09:40:41 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.info       | GENERACIÓN DE REPORTE
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Archivo: CCE_DNM_INCI_PROV_DIRE_16072025
+20250717.094039.info       | Hora de Inicio: 09:40:41
+20250717.094039.info       | AGREGANDO REGISTROS AL ARCHIVO CSV | LOOKUP | CANTIDAD DE REG. [6] | total de registros agregados [6]
+20250717.094039.info       | Registros Agregados al CSV: 6
+20250717.094039.info       | Hora de Fin: 09:40:41 | Duración: 00:00 | Registros en reporte: 6
+20250717.094039.info       | 
+20250717.094039.info       | ELIMINACIÓN DE DATOS
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | Etapa: LOOKUP | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250717.094039.info       | Hora de Inicio: 09:40:41
+20250717.094039.info       | Hora de Fin: 09:40:41 | Duración: 00:00
+20250717.094039.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094039.info       | 
+20250717.094039.monitoreo INICIO [09:40:39] FIN [09:40:41] ARCHIVO [CCE_DNM_INCI_PROV_DIRE_16072025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [9]
+20250717.094045.info       | Validando conexión a base de datos directorio...
+20250717.094045.info       | Validando conexión a base de datos transaccional...
+20250717.094045.info       | Procesando Archivo entidades.dat...
+20250717.094045.info       | Validando y creando tablas para  BD H2... 
+20250717.094045.info       | Ejecutando truncate para datos de BD H2...
+20250717.094045.info       | Reporte Circular BCRP
+20250717.094045.info       | Fecha y hora de procesamiento: 2025-07-17 09:40
+20250717.094045.info       | Fecha de operación: 20250716
+20250717.094045.info       | Zona Horaria: America/Lima
+20250717.094045.info       | Codificación : windows-1252
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | Anexo [22] - CCE_TRANSF_DATOS - REPORTE 03
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250717.094045.info       | Hora de Inicio: 09:40:45
+20250717.094045.info       | Guardando registros en h2 | cantidad de reg. [965] | total de registros guardados [965]
+20250717.094045.info       | Registros Guardados en H2: 965
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00 | Registros Procesados: 965
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250717.094045.info       | Hora de Inicio: 09:40:46
+20250717.094045.info       | Guardando registros en h2 | cantidad de reg. [857] | total de registros guardados [857]
+20250717.094045.info       | Registros Guardados en H2: 857
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00 | Registros Procesados: 857
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250717.094045.info       | Hora de Inicio: 09:40:46
+20250717.094045.info       | Guardando registros en h2 | cantidad de reg. [4368] | total de registros guardados [4368]
+20250717.094045.info       | Registros Guardados en H2: 4368
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00 | Registros Procesados: 4368
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250717.094045.info       | Hora de Inicio: 09:40:46
+20250717.094045.info       | Guardando registros en h2 | cantidad de reg. [5244] | total de registros guardados [5244]
+20250717.094045.info       | Registros Guardados en H2: 5244
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00 | Registros Procesados: 5244
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | EXPORTACIÓN Y GENERACIÓN DE REPORTE
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | Exportar Datos desde H2 a: CCE_TRANSF_DATOS_16072025
+20250717.094045.info       | Hora de Inicio: 09:40:46
+20250717.094045.info       | Agregando registros al archivo csv | cantidad de reg. [965] | total de registros agregados [965]
+20250717.094045.info       | Registros Agregados al CSV: 965
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00 | Registros en reporte: 965
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094045.info       | Hora de Inicio: 09:40:46
+20250717.094045.info       | Hora de Fin: 09:40:46 | Duración: 00:00
+20250717.094045.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094045.info       | 
+20250717.094045.monitoreo INICIO [09:40:45] FIN [09:40:46] ARCHIVO [CCE_TRANSF_DATOS_16072025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [965] 
+20250717.094051.info       | Validando conexión a base de datos directorio...
+20250717.094051.info       | Validando conexión a base de datos transaccional...
+20250717.094051.info       | Procesando Archivo entidades.dat...
+20250717.094051.info       | Validando y creando tablas para  BD H2... 
+20250717.094051.info       | Ejecutando truncate para datos de BD H2...
+20250717.094051.info       | Reporte Circular BCRP
+20250717.094051.info       | Fecha y hora de procesamiento: 2025-07-17 09:40
+20250717.094051.info       | Fecha de operación: 20250716
+20250717.094051.info       | Zona Horaria: America/Lima
+20250717.094051.info       | Codificación : windows-1252
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | Anexo [22] - CCE_PROC_RES_TRANS_BENEF - REPORTE 04
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250717.094051.info       | Hora de Inicio: 09:40:51
+20250717.094051.info       | Guardando registros en h2 | cantidad de reg. [965] | total de registros guardados [965]
+20250717.094051.info       | Registros Guardados en H2: 965
+20250717.094051.info       | Hora de Fin: 09:40:51 | Duración: 00:00 | Registros Procesados: 965
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250717.094051.info       | Hora de Inicio: 09:40:51
+20250717.094051.info       | Guardando registros en h2 | cantidad de reg. [857] | total de registros guardados [857]
+20250717.094051.info       | Registros Guardados en H2: 857
+20250717.094051.info       | Hora de Fin: 09:40:51 | Duración: 00:00 | Registros Procesados: 857
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250717.094051.info       | Hora de Inicio: 09:40:51
+20250717.094051.info       | Guardando registros en h2 | cantidad de reg. [4368] | total de registros guardados [4368]
+20250717.094051.info       | Registros Guardados en H2: 4368
+20250717.094051.info       | Hora de Fin: 09:40:51 | Duración: 00:00 | Registros Procesados: 4368
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250717.094051.info       | Hora de Inicio: 09:40:51
+20250717.094051.info       | Guardando registros en h2 | cantidad de reg. [5244] | total de registros guardados [5244]
+20250717.094051.info       | Registros Guardados en H2: 5244
+20250717.094051.info       | Hora de Fin: 09:40:52 | Duración: 00:00 | Registros Procesados: 5244
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | GENERACIÓN DE REPORTE
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | Generar datos para resumen desde h2
+20250717.094051.info       | Hora de Inicio: 09:40:52
+20250717.094051.info       | Guardando registros en h2 | cantidad de reg. [965] | total de registros guardados [965]
+20250717.094051.info       | Registros Guardados en H2: 965
+20250717.094051.info       | Hora de Fin: 09:40:52 | Duración: 00:00 | Registros Procesados: 965
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | Generar resumen y crear archivo de respuesta : CCE_PROC_RES_TRANS_BENEF_16072025
+20250717.094051.info       | Hora de Inicio: 09:40:52
+20250717.094051.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094051.info       | Registros Agregados al CSV: 1
+20250717.094051.info       | Hora de Fin: 09:40:52 | Duración: 00:00 | Registros en reporte: 1
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094051.info       | Hora de Inicio: 09:40:52
+20250717.094051.info       | Hora de Fin: 09:40:52 | Duración: 00:00
+20250717.094051.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094051.info       | 
+20250717.094051.monitoreo INICIO [09:40:51] FIN [09:40:52] ARCHIVO [CCE_PROC_RES_TRANS_BENEF_16072025] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [1] 
+20250717.094056.info       | Validando conexión a base de datos directorio...
+20250717.094056.info       | Validando conexión a base de datos transaccional...
+20250717.094056.info       | Procesando Archivo entidades.dat...
+20250717.094056.info       | Validando y creando tablas para  BD H2... 
+20250717.094056.info       | Ejecutando truncate para datos de BD H2...
+20250717.094056.info       | Reporte Circular BCRP
+20250717.094056.info       | Fecha y hora de procesamiento: 2025-07-17 09:40
+20250717.094056.info       | Fecha de operación: 20250716
+20250717.094056.info       | Zona Horaria: America/Lima
+20250717.094056.info       | Codificación : windows-1252
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | Anexo [22] - CCE_PROC_RES_INCI_TRANS_BENEF - REPORTE 05
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250717.094056.info       | Hora de Inicio: 09:40:56
+20250717.094056.info       | Guardando registros en h2 | cantidad de reg. [965] | total de registros guardados [965]
+20250717.094056.info       | Registros Guardados en H2: 965
+20250717.094056.info       | Hora de Fin: 09:40:56 | Duración: 00:00 | Registros Procesados: 965
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250717.094056.info       | Hora de Inicio: 09:40:56
+20250717.094056.info       | Guardando registros en h2 | cantidad de reg. [857] | total de registros guardados [857]
+20250717.094056.info       | Registros Guardados en H2: 857
+20250717.094056.info       | Hora de Fin: 09:40:56 | Duración: 00:00 | Registros Procesados: 857
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250717.094056.info       | Hora de Inicio: 09:40:56
+20250717.094056.info       | Guardando registros en h2 | cantidad de reg. [4368] | total de registros guardados [4368]
+20250717.094056.info       | Registros Guardados en H2: 4368
+20250717.094056.info       | Hora de Fin: 09:40:56 | Duración: 00:00 | Registros Procesados: 4368
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250717.094056.info       | Hora de Inicio: 09:40:56
+20250717.094056.info       | Guardando registros en h2 | cantidad de reg. [5244] | total de registros guardados [5244]
+20250717.094056.info       | Registros Guardados en H2: 5244
+20250717.094056.info       | Hora de Fin: 09:40:57 | Duración: 00:00 | Registros Procesados: 5244
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | GENERACIÓN DE REPORTE
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | Generar datos para resumen desde h2
+20250717.094056.info       | Hora de Inicio: 09:40:57
+20250717.094056.info       | Guardando registros en h2 | cantidad de reg. [965] | total de registros guardados [965]
+20250717.094056.info       | Registros Guardados en H2: 965
+20250717.094056.info       | Hora de Fin: 09:40:57 | Duración: 00:00 | Registros Procesados: 965
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | Generar resumen y crear archivo de respuesta : CCE_PROC_RES_INCI_TRANS_BENEF_16072025
+20250717.094056.info       | Hora de Inicio: 09:40:57
+20250717.094056.info       | Agregando registros al archivo csv | cantidad de reg. [17] | total de registros agregados [17]
+20250717.094056.info       | Registros Agregados al CSV: 17
+20250717.094056.info       | Hora de Fin: 09:40:57 | Duración: 00:00 | Registros en reporte: 17
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094056.info       | Hora de Inicio: 09:40:57
+20250717.094056.info       | Hora de Fin: 09:40:57 | Duración: 00:00
+20250717.094056.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094056.info       | 
+20250717.094056.monitoreo INICIO [09:40:56] FIN [09:40:57] ARCHIVO [CCE_PROC_RES_INCI_TRANS_BENEF_16072025] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [17] 
+20250717.094100.info       | Validando conexión a base de datos directorio...
+20250717.094100.info       | Validando conexión a base de datos transaccional...
+20250717.094100.info       | Procesando Archivo entidades.dat...
+20250717.094100.info       | Validando y creando tablas para  BD H2... 
+20250717.094100.info       | Ejecutando truncate para datos de BD H2...
+20250717.094100.info       | Reporte Circular BCRP
+20250717.094100.info       | Fecha y hora de procesamiento: 2025-07-17 09:41
+20250717.094100.info       | Fecha de operación: 20250716
+20250717.094100.info       | Zona Horaria: America/Lima
+20250717.094100.info       | Codificación : windows-1252
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Anexo [18] - CCE_DNM_REND - REPORTE 06
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Etapa: BARRIDO - Percentil - Request
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [352] | total de registros guardados [352]
+20250717.094100.info       | Registros Guardados en H2: 352
+20250717.094100.info       | Hora de Fin: 09:41:01 | Duración: 00:00 | Registros Procesados: 352
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: BARRIDO - Percentil - Response
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [364] | total de registros guardados [364]
+20250717.094100.info       | Registros Guardados en H2: 364
+20250717.094100.info       | Hora de Fin: 09:41:01 | Duración: 00:00 | Registros Procesados: 364
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | GENERACIÓN DE REPORTE
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Archivo: CCE_DNM_REND_16072025
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094100.info       | Hora de Fin: 09:41:01 | Duración: 00:00 | Registros Procesados: 1
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Hora de Fin: 09:41:01 | Duración: 00:00
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUp
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [812] | total de registros guardados [10812]
+20250717.094100.info       | Registros Guardados en H2: 10812
+20250717.094100.info       | Hora de Fin: 09:41:01 | Duración: 00:00 | Registros Procesados: 10812
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUpRspn
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Hora de Inicio: 09:41:01
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [810] | total de registros guardados [10810]
+20250717.094100.info       | Registros Guardados en H2: 10810
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094100.info       | 
+20250717.094100.info       | GENERACIÓN DE REPORTE
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Archivo: CCE_DNM_REND_16072025
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 1
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: BARRIDO - TiempoMaximo - Request
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [352] | total de registros guardados [352]
+20250717.094100.info       | Registros Guardados en H2: 352
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 352
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: BARRIDO - TiempoMaximo - Response
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [364] | total de registros guardados [364]
+20250717.094100.info       | Registros Guardados en H2: 364
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 364
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | GENERACIÓN DE REPORTE
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Archivo: CCE_DNM_REND_16072025
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 1
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUp
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [812] | total de registros guardados [10812]
+20250717.094100.info       | Registros Guardados en H2: 10812
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 10812
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUpRspn
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094100.info       | Guardando registros en h2 | cantidad de reg. [810] | total de registros guardados [10810]
+20250717.094100.info       | Registros Guardados en H2: 10810
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | GENERACIÓN DE REPORTE
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | Archivo: CCE_DNM_REND_16072025
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00 | Registros Procesados: 1
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094100.info       | Hora de Inicio: 09:41:02
+20250717.094100.info       | Hora de Fin: 09:41:02 | Duración: 00:00
+20250717.094100.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094100.info       | 
+20250717.094100.monitoreo INICIO [09:41:00] FIN [09:41:02] ARCHIVO [CCE_DNM_REND_16072025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [4]
+20250717.094107.info       | Validando conexión a base de datos directorio...
+20250717.094107.info       | Validando conexión a base de datos transaccional...
+20250717.094107.info       | Procesando Archivo entidades.dat...
+20250717.094107.info       | Validando y creando tablas para  BD H2... 
+20250717.094107.info       | Ejecutando truncate para datos de BD H2...
+20250717.094107.info       | Reporte Circular BCRP
+20250717.094107.info       | Fecha y hora de procesamiento: 2025-07-17 09:41
+20250717.094107.info       | Fecha de operación: 20250716
+20250717.094107.info       | Zona Horaria: America/Lima
+20250717.094107.info       | Codificación : windows-1252
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Anexo [18] - CCE_PROC_REND - REPORTE 07
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUp
+20250717.094107.info       | Hora de Inicio: 09:41:07
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [812] | total de registros guardados [10812]
+20250717.094107.info       | Registros Guardados en H2: 10812
+20250717.094107.info       | Hora de Fin: 09:41:07 | Duración: 00:00 | Registros Procesados: 10812
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUpRspn
+20250717.094107.info       | Hora de Inicio: 09:41:07
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [810] | total de registros guardados [10810]
+20250717.094107.info       | Registros Guardados en H2: 10810
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | GENERACIÓN DE REPORTE
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Archivo: CCE_PROC_REND_16072025
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Agregando registros al archivo csv | cantidad de reg. [2] | total de registros agregados [2]
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 2
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: TRANSFERENCIA - Percentil - Ct1
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [962] | total de registros guardados [962]
+20250717.094107.info       | Registros Guardados en H2: 962
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 962
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: TRANSFERENCIA - Percentil - Ct4
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [4339] | total de registros guardados [4339]
+20250717.094107.info       | Registros Guardados en H2: 4339
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 4339
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | GENERACIÓN DE REPORTE
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 1
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Archivo: CCE_PROC_REND_16072025
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUp
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [812] | total de registros guardados [10812]
+20250717.094107.info       | Registros Guardados en H2: 10812
+20250717.094107.info       | Hora de Fin: 09:41:08 | Duración: 00:00 | Registros Procesados: 10812
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUpRspn
+20250717.094107.info       | Hora de Inicio: 09:41:08
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [810] | total de registros guardados [10810]
+20250717.094107.info       | Registros Guardados en H2: 10810
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00 | Registros Procesados: 10810
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | GENERACIÓN DE REPORTE
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Archivo: CCE_PROC_REND_16072025
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Agregando registros al archivo csv | cantidad de reg. [2] | total de registros agregados [2]
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00 | Registros Procesados: 2
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: TRANSFERENCIA - Percentil - Ct1
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [962] | total de registros guardados [962]
+20250717.094107.info       | Registros Guardados en H2: 962
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00 | Registros Procesados: 962
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | Etapa: TRANSFERENCIA - Percentil - Ct4
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Guardando registros en h2 | cantidad de reg. [4339] | total de registros guardados [4339]
+20250717.094107.info       | Registros Guardados en H2: 4339
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00 | Registros Procesados: 4339
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | GENERACIÓN DE REPORTE
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00 | Registros Procesados: 1
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | Archivo: CCE_PROC_REND_16072025
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.info       | LIMPIEZA DE REGISTROS EN H2
+20250717.094107.info       | Hora de Inicio: 09:41:09
+20250717.094107.info       | Hora de Fin: 09:41:09 | Duración: 00:00
+20250717.094107.info       | ------------------------------------------------------------------------------------------------------------------------
+20250717.094107.info       | 
+20250717.094107.monitoreo INICIO [09:41:07] FIN [09:41:09] ARCHIVO [CCE_PROC_REND_16072025] ESTADO [OK] DURACIÓN [00:02] TOTAL DE REG. EN REPORTE [6]

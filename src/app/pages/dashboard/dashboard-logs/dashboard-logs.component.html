@@ -1,0 +1,70 @@
+<!-- Filtros -->
+<div class="filters-container">
+  <!-- Fecha inicio -->
+  <div class="filter-item">
+    <label for="fechaInicio">Desde:</label>
+    <input type="date" id="fechaInicio" [(ngModel)]="filtros.fechaInicio">
+  </div>
+
+  <!-- Fecha fin -->
+  <div class="filter-item">
+    <label for="fechaFin">Hasta:</label>
+    <input type="date" id="fechaFin" [(ngModel)]="filtros.fechaFin">
+  </div>
+
+  <!-- Proceso -->
+  <div class="filter-item">
+    <label for="proceso">Proceso:</label>
+    <select id="proceso" [(ngModel)]="filtros.procesoOrigen">
+      <option value="">Todos</option>
+      <option *ngFor="let proceso of procesos" [value]="proceso">{{ proceso }}</option>
+    </select>
+  </div>
+
+  <!-- Botón -->
+  <div class="filter-item filter-button">
+    <button (click)="aplicarFiltros()">Filtrar</button>
+  </div>
+</div>
+
+<!-- Tabla con scroll -->
+<div class="table-container" style="max-height: 330px; overflow-y: auto; border: 1px solid #ccc; border-radius: 6px;">
+  <table class="report-table" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Nombre del Log</th>
+        <th>Proceso Origen</th>
+        <th>Fecha de Generación</th>
+        <th>Estado</th>
+        <th>Formato</th>
+        <th>Tamaño</th>
+        <th>Descargar</th>
+        <th>Ver Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="registros.length === 0">
+        <td colspan="8" class="no-data">No hay registros disponibles</td>
+      </tr>
+      <tr *ngFor="let reporte of registros">
+        <td>{{ reporte.nombre }}</td>
+        <td>{{ reporte.procesoOrigen }}</td>
+        <td>{{ reporte.fechaGeneracion | date:'yyyy-MM-dd' }}</td>
+        <td>{{ reporte.estado }}</td>
+        <td>{{ reporte.formato }}</td>
+        <td>{{ reporte.tamanio }}</td>
+        <td>
+          <!-- Descarga usando atributo download -->
+          <a [href]="reporte.enlaceDescarga" download="{{ reporte.nombre }}.log">Descargar</a>
+        </td>
+        <td><a href="#" (click)="verDetalle(reporte); $event.preventDefault()">Ver detalle</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- Pantalla de logs -->
+<div class="log-screen" style="margin-top: 2rem;">
+  <pre>{{ logContenido }}</pre>
+</div>

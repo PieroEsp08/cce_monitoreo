@@ -1,0 +1,1581 @@
+20250808.122600.info       | Validando conexión a base de datos directorio...
+20250808.122600.info       | Validando conexión a base de datos transaccional...
+20250808.122600.info       | Procesando Archivo entidades.dat...
+20250808.122600.info       | Validando y creando tablas para  BD H2... 
+20250808.122600.info       | Ejecutando truncate para datos de BD H2...
+20250808.122600.info       | Reporte Circular BCRP
+20250808.122600.info       | Fecha y hora de procesamiento: 2025-08-08 12:26
+20250808.122600.info       | Fecha de operación: 20250807
+20250808.122600.info       | Zona Horaria: America/Bogota
+20250808.122600.info       | Codificación : UTF-8
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | Anexo [22] - CCE_TRANSF_DATOS - REPORTE 03
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.122600.info       | Hora de Inicio: 12:26:00
+20250808.122600.info       | Guardando registros en h2 | cantidad de reg. [63] | total de registros guardados [63]
+20250808.122600.info       | Registros Guardados en H2: 63
+20250808.122600.info       | Hora de Fin: 12:26:01 | Duración: 00:00 | Registros Procesados: 63
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.122600.info       | Hora de Inicio: 12:26:01
+20250808.122600.info       | Guardando registros en h2 | cantidad de reg. [61] | total de registros guardados [61]
+20250808.122600.info       | Registros Guardados en H2: 61
+20250808.122600.info       | Hora de Fin: 12:26:01 | Duración: 00:00 | Registros Procesados: 61
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.122600.info       | Hora de Inicio: 12:26:01
+20250808.122600.info       | Guardando registros en h2 | cantidad de reg. [672] | total de registros guardados [672]
+20250808.122600.info       | Registros Guardados en H2: 672
+20250808.122600.info       | Hora de Fin: 12:26:01 | Duración: 00:00 | Registros Procesados: 672
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.122600.info       | Hora de Inicio: 12:26:01
+20250808.122600.info       | Guardando registros en h2 | cantidad de reg. [686] | total de registros guardados [686]
+20250808.122600.info       | Registros Guardados en H2: 686
+20250808.122600.info       | Hora de Fin: 12:26:02 | Duración: 00:00 | Registros Procesados: 686
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | EXPORTACIÓN Y GENERACIÓN DE REPORTE
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | Exportar Datos desde H2 a: CCE_TRANSF_DATOS_07082025
+20250808.122600.info       | Hora de Inicio: 12:26:02
+20250808.122600.info       | Agregando registros al archivo csv | cantidad de reg. [63] | total de registros agregados [63]
+20250808.122600.info       | Registros Agregados al CSV: 63
+20250808.122600.info       | Hora de Fin: 12:26:02 | Duración: 00:00 | Registros en reporte: 63
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.122600.info       | Hora de Inicio: 12:26:02
+20250808.122600.info       | Hora de Fin: 12:26:02 | Duración: 00:00
+20250808.122600.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122600.info       | 
+20250808.122600.monitoreo INICIO [12:26:00] FIN [12:26:02] ARCHIVO [CCE_TRANSF_DATOS_07082025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [63] 
+20250808.122736.info       | Validando conexión a base de datos directorio...
+20250808.122736.info       | Validando conexión a base de datos transaccional...
+20250808.122736.info       | Procesando Archivo entidades.dat...
+20250808.122736.info       | Validando y creando tablas para  BD H2... 
+20250808.122736.info       | Ejecutando truncate para datos de BD H2...
+20250808.122736.info       | Reporte Circular BCRP
+20250808.122736.info       | Fecha y hora de procesamiento: 2025-08-08 12:27
+20250808.122736.info       | Fecha de operación: 20250807
+20250808.122736.info       | Zona Horaria: America/Bogota
+20250808.122736.info       | Codificación : UTF-8
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Anexo [21] - CCE_DNM_DATOS_PROV_DIRE - REPORTE 01
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Etapa: BARRIDO | Componente: PRXLOOKUP
+20250808.122736.info       | Hora de Inicio: 12:27:36
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [692] | total de registros guardados [692]
+20250808.122736.info       | Registros Guardados en H2: 692
+20250808.122736.info       | Hora de Fin: 12:27:36 | Duración: 00:00 | Registros Procesados: 692
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | Etapa: BARRIDO | Componente: PRXYLOOKUPRSPN
+20250808.122736.info       | Hora de Inicio: 12:27:36
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [453] | total de registros guardados [453]
+20250808.122736.info       | Registros Guardados en H2: 453
+20250808.122736.info       | Hora de Fin: 12:27:36 | Duración: 00:00 | Registros Procesados: 453
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | GENERACIÓN DE REPORTE
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Archivo: CCE_DNM_DATOS_PROV_DIRE_07082025
+20250808.122736.info       | Hora de Inicio: 12:27:36
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [692] | total de registros agregados [692]
+20250808.122736.info       | Registros Agregados al CSV: 692
+20250808.122736.info       | Hora de Fin: 12:27:37 | Duración: 00:00 | Registros en reporte: 692
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | ELIMINACIÓN DE DATOS
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Etapa: BARRIDO | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250808.122736.info       | Hora de Inicio: 12:27:37
+20250808.122736.info       | Hora de Fin: 12:27:37 | Duración: 00:00
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Etapa: LOOKUP | Componente: PRXLOOKUP
+20250808.122736.info       | Hora de Inicio: 12:27:37
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [2455] | total de registros guardados [172455]
+20250808.122736.info       | Registros Guardados en H2: 172455
+20250808.122736.info       | Hora de Fin: 12:27:41 | Duración: 00:04 | Registros Procesados: 172455
+20250808.122736.info       | 
+20250808.122736.info       | Etapa: LOOKUP | Componente: PRXYLOOKUPRSPN
+20250808.122736.info       | Hora de Inicio: 12:27:41
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.122736.info       | Guardando registros en h2 | cantidad de reg. [2454] | total de registros guardados [172454]
+20250808.122736.info       | Registros Guardados en H2: 172454
+20250808.122736.info       | Hora de Fin: 12:27:46 | Duración: 00:04 | Registros Procesados: 172454
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | GENERACIÓN DE REPORTE
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Archivo: CCE_DNM_DATOS_PROV_DIRE_07082025
+20250808.122736.info       | Hora de Inicio: 12:27:46
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [10000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [20000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [30000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [40000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [50000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [60000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [70000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [80000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [90000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [100000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [110000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [120000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [130000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [140000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [150000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [160000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [170000]
+20250808.122736.info       | Agregando registros al archivo csv | cantidad de reg. [2455] | total de registros agregados [172455]
+20250808.122736.info       | Registros Agregados al CSV: 172455
+20250808.122736.info       | Hora de Fin: 12:27:48 | Duración: 00:01 | Registros en reporte: 172455
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.info       | ELIMINACIÓN DE DATOS
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | Etapa: LOOKUP | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250808.122736.info       | Hora de Inicio: 12:27:48
+20250808.122736.info       | Hora de Fin: 12:27:48 | Duración: 00:00
+20250808.122736.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122736.info       | 
+20250808.122736.monitoreo INICIO [12:27:36] FIN [12:27:48] ARCHIVO [CCE_DNM_DATOS_PROV_DIRE_07082025] ESTADO [OK] DURACIÓN [00:12] TOTAL DE REG. EN REPORTE [173147]
+20250808.122804.info       | Validando conexión a base de datos directorio...
+20250808.122804.info       | Validando conexión a base de datos transaccional...
+20250808.122804.info       | Procesando Archivo entidades.dat...
+20250808.122804.info       | Validando y creando tablas para  BD H2... 
+20250808.122804.info       | Ejecutando truncate para datos de BD H2...
+20250808.122804.info       | Reporte Circular BCRP
+20250808.122804.info       | Fecha y hora de procesamiento: 2025-08-08 12:28
+20250808.122804.info       | Fecha de operación: 20250807
+20250808.122804.info       | Zona Horaria: America/Bogota
+20250808.122804.info       | Codificación : UTF-8
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Anexo [21]- CCE_DNM_INCI_PROV_DIRE - REPORTE 02
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Etapa: BARRIDO | Componente: PRXLOOKUP
+20250808.122804.info       | Hora de Inicio: 12:28:05
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | BARRIDO | PRXYLOOKUP | CANTIDAD DE REG. [692] | TOTAL DE REGISTROS GUARDADOS [692]
+20250808.122804.info       | Registros Guardados en H2: 692
+20250808.122804.info       | Hora de Fin: 12:28:05 | Duración: 00:00 | Registros Procesados: 692
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | Etapa: BARRIDO | Componente: PRXYLOOKUPRSPN
+20250808.122804.info       | Hora de Inicio: 12:28:05
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | BARRIDO | PRXYLOOKUPRSPN | CANTIDAD DE REG. [453] | total de registros guardados [453]
+20250808.122804.info       | Registros Guardados en H2: 453
+20250808.122804.info       | Hora de Fin: 12:28:05 | Duración: 00:00 | Registros Procesados: 453
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | GENERACIÓN DE REPORTE
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Archivo: CCE_DNM_INCI_PROV_DIRE_07082025
+20250808.122804.info       | Hora de Inicio: 12:28:05
+20250808.122804.info       | AGREGANDO REGISTROS AL ARCHIVO CSV | BARRIDO | CANTIDAD DE REG. [3] | total de registros agregados [3]
+20250808.122804.info       | Registros Agregados al CSV: 3
+20250808.122804.info       | Hora de Fin: 12:28:05 | Duración: 00:00 | Registros en reporte: 3
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | ELIMINACIÓN DE DATOS
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Etapa: BARRIDO | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250808.122804.info       | Hora de Inicio: 12:28:05
+20250808.122804.info       | Hora de Fin: 12:28:05 | Duración: 00:00
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Etapa: LOOKUP | Componente: PRXLOOKUP
+20250808.122804.info       | Hora de Inicio: 12:28:05
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [10000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [20000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [30000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [40000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [50000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [60000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [70000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [80000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [90000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [100000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [110000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [120000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [130000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [140000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [150000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [160000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [10000] | total de registros guardados [170000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUP | CANTIDAD DE REG. [2455] | total de registros guardados [172455]
+20250808.122804.info       | Registros Guardados en H2: 172455
+20250808.122804.info       | Hora de Fin: 12:28:10 | Duración: 00:04 | Registros Procesados: 172455
+20250808.122804.info       | 
+20250808.122804.info       | Etapa: LOOKUP | Componente: PRXYLOOKUPRSPN
+20250808.122804.info       | Hora de Inicio: 12:28:10
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [10000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [20000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [30000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [40000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [50000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [60000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [70000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [80000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [90000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [100000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [110000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [120000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [130000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [140000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [150000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [160000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [10000] | total de registros guardados [170000]
+20250808.122804.info       | GUARDANDO REGISTROS EN H2 | LOOKUPPRXYLOOKUPRSPN | CANTIDAD DE REG. [2454] | total de registros guardados [172454]
+20250808.122804.info       | Registros Guardados en H2: 172454
+20250808.122804.info       | Hora de Fin: 12:28:14 | Duración: 00:04 | Registros Procesados: 172454
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.info       | GENERACIÓN DE REPORTE
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Archivo: CCE_DNM_INCI_PROV_DIRE_07082025
+20250808.122804.info       | Hora de Inicio: 12:28:14
+20250808.122804.info       | AGREGANDO REGISTROS AL ARCHIVO CSV | LOOKUP | CANTIDAD DE REG. [5] | total de registros agregados [5]
+20250808.122804.info       | Registros Agregados al CSV: 5
+20250808.122804.info       | Hora de Fin: 12:28:15 | Duración: 00:00 | Registros en reporte: 5
+20250808.122804.info       | 
+20250808.122804.info       | ELIMINACIÓN DE DATOS
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | Etapa: LOOKUP | Componentes: PRXLOOKUP y PRXYLOOKUPRSPN
+20250808.122804.info       | Hora de Inicio: 12:28:15
+20250808.122804.info       | Hora de Fin: 12:28:15 | Duración: 00:00
+20250808.122804.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122804.info       | 
+20250808.122804.monitoreo INICIO [12:28:04] FIN [12:28:15] ARCHIVO [CCE_DNM_INCI_PROV_DIRE_07082025] ESTADO [OK] DURACIÓN [00:09] TOTAL DE REG. EN REPORTE [8]
+20250808.122829.info       | Validando conexión a base de datos directorio...
+20250808.122829.info       | Validando conexión a base de datos transaccional...
+20250808.122829.info       | Procesando Archivo entidades.dat...
+20250808.122829.info       | Validando y creando tablas para  BD H2... 
+20250808.122829.info       | Ejecutando truncate para datos de BD H2...
+20250808.122829.info       | Reporte Circular BCRP
+20250808.122829.info       | Fecha y hora de procesamiento: 2025-08-08 12:28
+20250808.122829.info       | Fecha de operación: 20250807
+20250808.122829.info       | Zona Horaria: America/Bogota
+20250808.122829.info       | Codificación : UTF-8
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | Anexo [22] - CCE_TRANSF_DATOS - REPORTE 03
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.122829.info       | Hora de Inicio: 12:28:30
+20250808.122829.info       | Guardando registros en h2 | cantidad de reg. [63] | total de registros guardados [63]
+20250808.122829.info       | Registros Guardados en H2: 63
+20250808.122829.info       | Hora de Fin: 12:28:30 | Duración: 00:00 | Registros Procesados: 63
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.122829.info       | Hora de Inicio: 12:28:30
+20250808.122829.info       | Guardando registros en h2 | cantidad de reg. [61] | total de registros guardados [61]
+20250808.122829.info       | Registros Guardados en H2: 61
+20250808.122829.info       | Hora de Fin: 12:28:31 | Duración: 00:00 | Registros Procesados: 61
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.122829.info       | Hora de Inicio: 12:28:31
+20250808.122829.info       | Guardando registros en h2 | cantidad de reg. [672] | total de registros guardados [672]
+20250808.122829.info       | Registros Guardados en H2: 672
+20250808.122829.info       | Hora de Fin: 12:28:31 | Duración: 00:00 | Registros Procesados: 672
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.122829.info       | Hora de Inicio: 12:28:31
+20250808.122829.info       | Guardando registros en h2 | cantidad de reg. [686] | total de registros guardados [686]
+20250808.122829.info       | Registros Guardados en H2: 686
+20250808.122829.info       | Hora de Fin: 12:28:31 | Duración: 00:00 | Registros Procesados: 686
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | EXPORTACIÓN Y GENERACIÓN DE REPORTE
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | Exportar Datos desde H2 a: CCE_TRANSF_DATOS_07082025
+20250808.122829.info       | Hora de Inicio: 12:28:31
+20250808.122829.info       | Agregando registros al archivo csv | cantidad de reg. [63] | total de registros agregados [63]
+20250808.122829.info       | Registros Agregados al CSV: 63
+20250808.122829.info       | Hora de Fin: 12:28:31 | Duración: 00:00 | Registros en reporte: 63
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.122829.info       | Hora de Inicio: 12:28:31
+20250808.122829.info       | Hora de Fin: 12:28:31 | Duración: 00:00
+20250808.122829.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122829.info       | 
+20250808.122829.monitoreo INICIO [12:28:29] FIN [12:28:31] ARCHIVO [CCE_TRANSF_DATOS_07082025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [63] 
+20250808.122918.info       | Validando conexión a base de datos directorio...
+20250808.122918.info       | Validando conexión a base de datos transaccional...
+20250808.122918.info       | Procesando Archivo entidades.dat...
+20250808.122918.info       | Validando y creando tablas para  BD H2... 
+20250808.122918.info       | Ejecutando truncate para datos de BD H2...
+20250808.122918.info       | Reporte Circular BCRP
+20250808.122918.info       | Fecha y hora de procesamiento: 2025-08-08 12:29
+20250808.122918.info       | Fecha de operación: 20250807
+20250808.122918.info       | Zona Horaria: America/Bogota
+20250808.122918.info       | Codificación : UTF-8
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | Anexo [22] - CCE_PROC_RES_TRANS_BENEF - REPORTE 04
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.122918.info       | Hora de Inicio: 12:29:19
+20250808.122918.info       | Guardando registros en h2 | cantidad de reg. [65] | total de registros guardados [65]
+20250808.122918.info       | Registros Guardados en H2: 65
+20250808.122918.info       | Hora de Fin: 12:29:19 | Duración: 00:00 | Registros Procesados: 65
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.122918.info       | Hora de Inicio: 12:29:19
+20250808.122918.info       | Guardando registros en h2 | cantidad de reg. [61] | total de registros guardados [61]
+20250808.122918.info       | Registros Guardados en H2: 61
+20250808.122918.info       | Hora de Fin: 12:29:19 | Duración: 00:00 | Registros Procesados: 61
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.122918.info       | Hora de Inicio: 12:29:19
+20250808.122918.info       | Guardando registros en h2 | cantidad de reg. [672] | total de registros guardados [672]
+20250808.122918.info       | Registros Guardados en H2: 672
+20250808.122918.info       | Hora de Fin: 12:29:20 | Duración: 00:00 | Registros Procesados: 672
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.122918.info       | Hora de Inicio: 12:29:20
+20250808.122918.info       | Guardando registros en h2 | cantidad de reg. [686] | total de registros guardados [686]
+20250808.122918.info       | Registros Guardados en H2: 686
+20250808.122918.info       | Hora de Fin: 12:29:20 | Duración: 00:00 | Registros Procesados: 686
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | GENERACIÓN DE REPORTE
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | Generar datos para resumen desde h2
+20250808.122918.info       | Hora de Inicio: 12:29:20
+20250808.122918.info       | Guardando registros en h2 | cantidad de reg. [65] | total de registros guardados [65]
+20250808.122918.info       | Registros Guardados en H2: 65
+20250808.122918.info       | Hora de Fin: 12:29:20 | Duración: 00:00 | Registros Procesados: 65
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | Generar resumen y crear archivo de respuesta : CCE_PROC_RES_TRANS_BENEF_07082025
+20250808.122918.info       | Hora de Inicio: 12:29:20
+20250808.122918.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.122918.info       | Registros Agregados al CSV: 1
+20250808.122918.info       | Hora de Fin: 12:29:20 | Duración: 00:00 | Registros en reporte: 1
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.122918.info       | Hora de Inicio: 12:29:20
+20250808.122918.info       | Hora de Fin: 12:29:20 | Duración: 00:00
+20250808.122918.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122918.info       | 
+20250808.122918.monitoreo INICIO [12:29:18] FIN [12:29:20] ARCHIVO [CCE_PROC_RES_TRANS_BENEF_07082025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [1] 
+20250808.122937.info       | Validando conexión a base de datos directorio...
+20250808.122937.info       | Validando conexión a base de datos transaccional...
+20250808.122937.info       | Procesando Archivo entidades.dat...
+20250808.122937.info       | Validando y creando tablas para  BD H2... 
+20250808.122937.info       | Ejecutando truncate para datos de BD H2...
+20250808.122937.info       | Reporte Circular BCRP
+20250808.122937.info       | Fecha y hora de procesamiento: 2025-08-08 12:29
+20250808.122937.info       | Fecha de operación: 20250807
+20250808.122937.info       | Zona Horaria: America/Bogota
+20250808.122937.info       | Codificación : UTF-8
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | Anexo [22] - CCE_PROC_RES_INCI_TRANS_BENEF - REPORTE 05
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.122937.info       | Hora de Inicio: 12:29:38
+20250808.122937.info       | Guardando registros en h2 | cantidad de reg. [65] | total de registros guardados [65]
+20250808.122937.info       | Registros Guardados en H2: 65
+20250808.122937.info       | Hora de Fin: 12:29:38 | Duración: 00:00 | Registros Procesados: 65
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.122937.info       | Hora de Inicio: 12:29:38
+20250808.122937.info       | Guardando registros en h2 | cantidad de reg. [61] | total de registros guardados [61]
+20250808.122937.info       | Registros Guardados en H2: 61
+20250808.122937.info       | Hora de Fin: 12:29:38 | Duración: 00:00 | Registros Procesados: 61
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.122937.info       | Hora de Inicio: 12:29:38
+20250808.122937.info       | Guardando registros en h2 | cantidad de reg. [672] | total de registros guardados [672]
+20250808.122937.info       | Registros Guardados en H2: 672
+20250808.122937.info       | Hora de Fin: 12:29:39 | Duración: 00:00 | Registros Procesados: 672
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.122937.info       | Hora de Inicio: 12:29:39
+20250808.122937.info       | Guardando registros en h2 | cantidad de reg. [686] | total de registros guardados [686]
+20250808.122937.info       | Registros Guardados en H2: 686
+20250808.122937.info       | Hora de Fin: 12:29:39 | Duración: 00:00 | Registros Procesados: 686
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | GENERACIÓN DE REPORTE
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | Generar datos para resumen desde h2
+20250808.122937.info       | Hora de Inicio: 12:29:39
+20250808.122937.info       | Guardando registros en h2 | cantidad de reg. [65] | total de registros guardados [65]
+20250808.122937.info       | Registros Guardados en H2: 65
+20250808.122937.info       | Hora de Fin: 12:29:39 | Duración: 00:00 | Registros Procesados: 65
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | Generar resumen y crear archivo de respuesta : CCE_PROC_RES_INCI_TRANS_BENEF_07082025
+20250808.122937.info       | Hora de Inicio: 12:29:39
+20250808.122937.info       | Agregando registros al archivo csv | cantidad de reg. [12] | total de registros agregados [12]
+20250808.122937.info       | Registros Agregados al CSV: 12
+20250808.122937.info       | Hora de Fin: 12:29:39 | Duración: 00:00 | Registros en reporte: 12
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.122937.info       | Hora de Inicio: 12:29:39
+20250808.122937.info       | Hora de Fin: 12:29:39 | Duración: 00:00
+20250808.122937.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.122937.info       | 
+20250808.122937.monitoreo INICIO [12:29:37] FIN [12:29:39] ARCHIVO [CCE_PROC_RES_INCI_TRANS_BENEF_07082025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [12] 
+20250808.123016.info       | Validando conexión a base de datos directorio...
+20250808.123016.info       | Validando conexión a base de datos transaccional...
+20250808.123016.info       | Procesando Archivo entidades.dat...
+20250808.123016.info       | Validando y creando tablas para  BD H2... 
+20250808.123016.info       | Ejecutando truncate para datos de BD H2...
+20250808.123016.info       | Reporte Circular BCRP
+20250808.123016.info       | Fecha y hora de procesamiento: 2025-08-08 12:30
+20250808.123016.info       | Fecha de operación: 20250807
+20250808.123016.info       | Zona Horaria: America/Bogota
+20250808.123016.info       | Codificación : UTF-8
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Anexo [18] - CCE_DNM_REND - REPORTE 06
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Etapa: BARRIDO - Percentil - Request
+20250808.123016.info       | Hora de Inicio: 12:30:16
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [230] | total de registros guardados [230]
+20250808.123016.info       | Registros Guardados en H2: 230
+20250808.123016.info       | Hora de Fin: 12:30:16 | Duración: 00:00 | Registros Procesados: 230
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: BARRIDO - Percentil - Response
+20250808.123016.info       | Hora de Inicio: 12:30:16
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [238] | total de registros guardados [238]
+20250808.123016.info       | Registros Guardados en H2: 238
+20250808.123016.info       | Hora de Fin: 12:30:16 | Duración: 00:00 | Registros Procesados: 238
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | GENERACIÓN DE REPORTE
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Archivo: CCE_DNM_REND_07082025
+20250808.123016.info       | Hora de Inicio: 12:30:16
+20250808.123016.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123016.info       | Hora de Fin: 12:30:16 | Duración: 00:00 | Registros Procesados: 1
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123016.info       | Hora de Inicio: 12:30:16
+20250808.123016.info       | Hora de Fin: 12:30:16 | Duración: 00:00
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUp
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Hora de Inicio: 12:30:16
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [2452] | total de registros guardados [172452]
+20250808.123016.info       | Registros Guardados en H2: 172452
+20250808.123016.info       | Hora de Fin: 12:30:19 | Duración: 00:02 | Registros Procesados: 172452
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUpRspn
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Hora de Inicio: 12:30:19
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [2454] | total de registros guardados [172454]
+20250808.123016.info       | Registros Guardados en H2: 172454
+20250808.123016.info       | Hora de Fin: 12:30:21 | Duración: 00:02 | Registros Procesados: 172454
+20250808.123016.info       | 
+20250808.123016.info       | GENERACIÓN DE REPORTE
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Archivo: CCE_DNM_REND_07082025
+20250808.123016.info       | Hora de Inicio: 12:30:21
+20250808.123016.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123016.info       | Hora de Fin: 12:30:22 | Duración: 00:00 | Registros Procesados: 1
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123016.info       | Hora de Inicio: 12:30:22
+20250808.123016.info       | Hora de Fin: 12:30:22 | Duración: 00:00
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: BARRIDO - TiempoMaximo - Request
+20250808.123016.info       | Hora de Inicio: 12:30:22
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [230] | total de registros guardados [230]
+20250808.123016.info       | Registros Guardados en H2: 230
+20250808.123016.info       | Hora de Fin: 12:30:22 | Duración: 00:00 | Registros Procesados: 230
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: BARRIDO - TiempoMaximo - Response
+20250808.123016.info       | Hora de Inicio: 12:30:22
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [238] | total de registros guardados [238]
+20250808.123016.info       | Registros Guardados en H2: 238
+20250808.123016.info       | Hora de Fin: 12:30:23 | Duración: 00:00 | Registros Procesados: 238
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | GENERACIÓN DE REPORTE
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Archivo: CCE_DNM_REND_07082025
+20250808.123016.info       | Hora de Inicio: 12:30:23
+20250808.123016.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123016.info       | Hora de Fin: 12:30:23 | Duración: 00:00 | Registros Procesados: 1
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123016.info       | Hora de Inicio: 12:30:23
+20250808.123016.info       | Hora de Fin: 12:30:23 | Duración: 00:00
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUp
+20250808.123016.info       | Hora de Inicio: 12:30:23
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [2452] | total de registros guardados [172452]
+20250808.123016.info       | Registros Guardados en H2: 172452
+20250808.123016.info       | Hora de Fin: 12:30:25 | Duración: 00:01 | Registros Procesados: 172452
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUpRspn
+20250808.123016.info       | Hora de Inicio: 12:30:25
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123016.info       | Guardando registros en h2 | cantidad de reg. [2454] | total de registros guardados [172454]
+20250808.123016.info       | Registros Guardados en H2: 172454
+20250808.123016.info       | Hora de Fin: 12:30:27 | Duración: 00:02 | Registros Procesados: 172454
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | GENERACIÓN DE REPORTE
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | Archivo: CCE_DNM_REND_07082025
+20250808.123016.info       | Hora de Inicio: 12:30:27
+20250808.123016.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123016.info       | Hora de Fin: 12:30:27 | Duración: 00:00 | Registros Procesados: 1
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123016.info       | Hora de Inicio: 12:30:27
+20250808.123016.info       | Hora de Fin: 12:30:27 | Duración: 00:00
+20250808.123016.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123016.info       | 
+20250808.123016.monitoreo INICIO [12:30:16] FIN [12:30:27] ARCHIVO [CCE_DNM_REND_07082025] ESTADO [OK] DURACIÓN [00:11] TOTAL DE REG. EN REPORTE [4]
+20250808.123043.info       | Validando conexión a base de datos directorio...
+20250808.123043.info       | Validando conexión a base de datos transaccional...
+20250808.123043.info       | Procesando Archivo entidades.dat...
+20250808.123043.info       | Validando y creando tablas para  BD H2... 
+20250808.123043.info       | Ejecutando truncate para datos de BD H2...
+20250808.123043.info       | Reporte Circular BCRP
+20250808.123043.info       | Fecha y hora de procesamiento: 2025-08-08 12:30
+20250808.123043.info       | Fecha de operación: 20250807
+20250808.123043.info       | Zona Horaria: America/Bogota
+20250808.123043.info       | Codificación : UTF-8
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Anexo [18] - CCE_PROC_REND - REPORTE 07
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | OBTENCIÓN DE DATOS Y PROCESAMIENTO
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUp
+20250808.123043.info       | Hora de Inicio: 12:30:43
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [2452] | total de registros guardados [172452]
+20250808.123043.info       | Registros Guardados en H2: 172452
+20250808.123043.info       | Hora de Fin: 12:30:46 | Duración: 00:02 | Registros Procesados: 172452
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: LOOKUP - LOOKUPQR - Percentil - PrxLookUpRspn
+20250808.123043.info       | Hora de Inicio: 12:30:46
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [2454] | total de registros guardados [172454]
+20250808.123043.info       | Registros Guardados en H2: 172454
+20250808.123043.info       | Hora de Fin: 12:30:48 | Duración: 00:02 | Registros Procesados: 172454
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | GENERACIÓN DE REPORTE
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Archivo: CCE_PROC_REND_07082025
+20250808.123043.info       | Hora de Inicio: 12:30:48
+20250808.123043.info       | Agregando registros al archivo csv | cantidad de reg. [2] | total de registros agregados [2]
+20250808.123043.info       | Hora de Fin: 12:30:49 | Duración: 00:00 | Registros Procesados: 2
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123043.info       | Hora de Inicio: 12:30:49
+20250808.123043.info       | Hora de Fin: 12:30:49 | Duración: 00:00
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: TRANSFERENCIA - Percentil - Ct1
+20250808.123043.info       | Hora de Inicio: 12:30:49
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [63] | total de registros guardados [63]
+20250808.123043.info       | Registros Guardados en H2: 63
+20250808.123043.info       | Hora de Fin: 12:30:50 | Duración: 00:00 | Registros Procesados: 63
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: TRANSFERENCIA - Percentil - Ct4
+20250808.123043.info       | Hora de Inicio: 12:30:50
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [663] | total de registros guardados [663]
+20250808.123043.info       | Registros Guardados en H2: 663
+20250808.123043.info       | Hora de Fin: 12:30:50 | Duración: 00:00 | Registros Procesados: 663
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | GENERACIÓN DE REPORTE
+20250808.123043.info       | Hora de Inicio: 12:30:50
+20250808.123043.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123043.info       | Hora de Fin: 12:30:50 | Duración: 00:00 | Registros Procesados: 1
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Archivo: CCE_PROC_REND_07082025
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123043.info       | Hora de Inicio: 12:30:50
+20250808.123043.info       | Hora de Fin: 12:30:50 | Duración: 00:00
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUp
+20250808.123043.info       | Hora de Inicio: 12:30:50
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [2452] | total de registros guardados [172452]
+20250808.123043.info       | Registros Guardados en H2: 172452
+20250808.123043.info       | Hora de Fin: 12:30:52 | Duración: 00:01 | Registros Procesados: 172452
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: LOOKUP - LOOKUPQR - TiempoMaximo - PrxLookUpRspn
+20250808.123043.info       | Hora de Inicio: 12:30:52
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [2454] | total de registros guardados [172454]
+20250808.123043.info       | Registros Guardados en H2: 172454
+20250808.123043.info       | Hora de Fin: 12:30:54 | Duración: 00:02 | Registros Procesados: 172454
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | GENERACIÓN DE REPORTE
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Archivo: CCE_PROC_REND_07082025
+20250808.123043.info       | Hora de Inicio: 12:30:54
+20250808.123043.info       | Agregando registros al archivo csv | cantidad de reg. [2] | total de registros agregados [2]
+20250808.123043.info       | Hora de Fin: 12:30:55 | Duración: 00:00 | Registros Procesados: 2
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123043.info       | Hora de Inicio: 12:30:55
+20250808.123043.info       | Hora de Fin: 12:30:55 | Duración: 00:00
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: TRANSFERENCIA - Percentil - Ct1
+20250808.123043.info       | Hora de Inicio: 12:30:55
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [63] | total de registros guardados [63]
+20250808.123043.info       | Registros Guardados en H2: 63
+20250808.123043.info       | Hora de Fin: 12:30:55 | Duración: 00:00 | Registros Procesados: 63
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | Etapa: TRANSFERENCIA - Percentil - Ct4
+20250808.123043.info       | Hora de Inicio: 12:30:55
+20250808.123043.info       | Guardando registros en h2 | cantidad de reg. [663] | total de registros guardados [663]
+20250808.123043.info       | Registros Guardados en H2: 663
+20250808.123043.info       | Hora de Fin: 12:30:56 | Duración: 00:00 | Registros Procesados: 663
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | GENERACIÓN DE REPORTE
+20250808.123043.info       | Hora de Inicio: 12:30:56
+20250808.123043.info       | Agregando registros al archivo csv | cantidad de reg. [1] | total de registros agregados [1]
+20250808.123043.info       | Hora de Fin: 12:30:56 | Duración: 00:00 | Registros Procesados: 1
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | Archivo: CCE_PROC_REND_07082025
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123043.info       | Hora de Inicio: 12:30:56
+20250808.123043.info       | Hora de Fin: 12:30:56 | Duración: 00:00
+20250808.123043.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123043.info       | 
+20250808.123043.monitoreo INICIO [12:30:43] FIN [12:30:56] ARCHIVO [CCE_PROC_REND_07082025] ESTADO [OK] DURACIÓN [00:12] TOTAL DE REG. EN REPORTE [6]
+20250808.123124.info       | Validando conexión a base de datos directorio...
+20250808.123124.info       | Validando conexión a base de datos transaccional...
+20250808.123124.info       | Procesando Archivo entidades.dat...
+20250808.123124.info       | Validando y creando tablas para  BD H2... 
+20250808.123124.info       | Ejecutando truncate para datos de BD H2...
+20250808.123124.info       | Reporte Circular BCRP
+20250808.123124.info       | Fecha y hora de procesamiento: 2025-08-08 12:31
+20250808.123124.info       | Fecha de operación: 20250807
+20250808.123124.info       | Zona Horaria: America/Bogota
+20250808.123124.info       | Codificación : UTF-8
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | Anexo [22] - CCE_TRANSF_DATOS - REPORTE 03
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.123124.info       | Hora de Inicio: 12:31:25
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [510000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [590000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [600000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [610000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [620000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [630000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [640000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [650000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [660000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [670000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [680000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [690000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [700000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [710000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [720000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [730000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [740000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [750000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [760000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [770000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [780000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [790000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [800000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [810000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [820000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [830000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [840000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [850000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [860000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [870000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [9431] | total de registros guardados [879431]
+20250808.123124.info       | Registros Guardados en H2: 879431
+20250808.123124.info       | Hora de Fin: 12:32:31 | Duración: 01:06 | Registros Procesados: 879431
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.123124.info       | Hora de Inicio: 12:32:31
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [510000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [590000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [600000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [610000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [620000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [630000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [640000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [650000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [660000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [670000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [680000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [690000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [700000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [710000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [720000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [730000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [740000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [750000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [760000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [770000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [780000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [790000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [800000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [810000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [820000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [830000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [840000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [850000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [860000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [870000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [880000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [41] | total de registros guardados [880041]
+20250808.123124.info       | Registros Guardados en H2: 880041
+20250808.123124.info       | Hora de Fin: 12:33:27 | Duración: 00:55 | Registros Procesados: 880041
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.123124.info       | Hora de Inicio: 12:33:27
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [510000]
+20250808.123124.warn       | PreparedStatementCallback; SQL [INSERT INTO anexo22Reporte01Ct3 (last_modified,instructionId,responseCode)
+VALUES (?,?,?);
+]; Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_9D0 ON PUBLIC.ANEXO22REPORTE01CT3(INSTRUCTIONID) VALUES ( /* 519444 */ '2025080720025200024115816664' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_9D0 ON PUBLIC.ANEXO22REPORTE01CT3(INSTRUCTIONID) VALUES ( /* 519444 */ '2025080720025200024115816664' )"; SQL statement:
+INSERT INTO anexo22Reporte01Ct3 (last_modified,instructionId,responseCode)
+VALUES (?,?,?) [23505-214]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_9D0 ON PUBLIC.ANEXO22REPORTE01CT3(INSTRUCTIONID) VALUES ( /* 519444 */ '2025080720025200024115816664' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_9D0 ON PUBLIC.ANEXO22REPORTE01CT3(INSTRUCTIONID) VALUES ( /* 519444 */ '2025080720025200024115816664' )"; SQL statement:
+INSERT INTO anexo22Reporte01Ct3 (last_modified,instructionId,responseCode)
+VALUES (?,?,?) [23505-214]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [590000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [600000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [610000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [620000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [630000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [640000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [650000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [660000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [670000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [680000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [690000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [700000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [710000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [720000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [730000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [740000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [750000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [760000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [770000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [780000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [790000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [800000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [810000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [820000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [830000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [840000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [850000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [860000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [870000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [880000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [890000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [900000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [910000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [920000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [930000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [940000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [950000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [960000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [970000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [980000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [990000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1000000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1010000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1020000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1030000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1040000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1050000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1060000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1070000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1080000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1090000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1510000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [253] | total de registros guardados [1580253]
+20250808.123124.info       | Registros Guardados en H2: 1580253
+20250808.123124.info       | Hora de Fin: 12:34:20 | Duración: 00:52 | Registros Procesados: 1580253
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.123124.info       | Hora de Inicio: 12:34:20
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [10000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [20000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [30000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [40000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [50000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [60000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [70000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [80000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [90000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [510000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [590000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [600000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [610000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [620000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [630000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [640000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [650000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [660000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [670000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [680000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [690000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [700000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [710000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [720000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [730000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [740000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [750000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [760000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [770000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [780000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [790000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [800000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [810000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [820000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [830000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [840000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [850000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [860000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [870000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [880000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [890000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [900000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [910000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [920000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [930000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [940000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [950000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [960000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [970000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [980000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [990000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1000000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1010000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1020000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1030000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1040000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1050000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1060000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1070000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1080000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1090000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1100000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1110000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1120000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1130000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1140000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1150000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1160000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1170000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1180000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1190000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1200000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1210000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1220000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1230000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1240000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1250000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1260000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1270000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1280000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1290000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1300000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1310000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1320000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1330000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1340000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1350000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1360000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1370000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1380000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1390000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1400000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1410000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1420000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1430000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1440000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1450000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1460000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1470000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1480000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1490000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1500000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1510000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1520000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1530000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1540000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1550000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1560000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1570000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [10000] | total de registros guardados [1580000]
+20250808.123124.info       | Guardando registros en h2 | cantidad de reg. [4002] | total de registros guardados [1584002]
+20250808.123124.info       | Registros Guardados en H2: 1584002
+20250808.123124.info       | Hora de Fin: 12:35:26 | Duración: 01:05 | Registros Procesados: 1584002
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | EXPORTACIÓN Y GENERACIÓN DE REPORTE
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | Exportar Datos desde H2 a: CCE_TRANSF_DATOS_07082025
+20250808.123124.info       | Hora de Inicio: 12:35:26
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [10000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [20000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [30000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [40000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [50000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [60000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [70000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [80000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [90000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [100000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [110000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [120000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [130000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [140000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [150000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [160000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [170000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [180000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [190000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [200000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [210000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [220000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [230000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [240000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [250000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [260000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [270000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [280000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [290000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [300000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [310000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [320000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [330000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [340000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [350000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [360000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [370000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [380000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [390000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [400000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [410000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [420000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [430000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [440000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [450000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [460000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [470000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [480000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [490000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [500000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [510000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [520000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [530000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [540000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [550000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [560000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [570000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [580000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [590000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [600000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [610000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [620000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [630000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [640000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [650000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [660000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [670000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [680000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [690000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [700000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [710000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [720000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [730000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [740000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [750000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [760000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [770000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [780000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [790000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [800000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [810000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [820000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [830000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [840000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [850000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [860000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [10000] | total de registros agregados [870000]
+20250808.123124.info       | Agregando registros al archivo csv | cantidad de reg. [9431] | total de registros agregados [879431]
+20250808.123124.info       | Registros Agregados al CSV: 879431
+20250808.123124.info       | Hora de Fin: 12:35:38 | Duración: 00:12 | Registros en reporte: 879431
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.123124.info       | Hora de Inicio: 12:35:38
+20250808.123124.info       | Hora de Fin: 12:35:38 | Duración: 00:00
+20250808.123124.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.123124.info       | 
+20250808.123124.monitoreo INICIO [12:31:24] FIN [12:35:38] ARCHIVO [CCE_TRANSF_DATOS_07082025] ESTADO [OK] DURACIÓN [04:13] TOTAL DE REG. EN REPORTE [879431] 
+20250808.130208.info       | Validando conexión a base de datos directorio...
+20250808.130208.info       | Validando conexión a base de datos transaccional...
+20250808.130208.info       | Procesando Archivo entidades.dat...
+20250808.130208.info       | Validando y creando tablas para  BD H2... 
+20250808.130208.info       | Ejecutando truncate para datos de BD H2...
+20250808.130208.info       | Reporte Circular BCRP
+20250808.130208.info       | Fecha y hora de procesamiento: 2025-08-08 13:02
+20250808.130208.info       | Fecha de operación: 20250807
+20250808.130208.info       | Zona Horaria: America/Bogota
+20250808.130208.info       | Codificación : UTF-8
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | Anexo [22] - CCE_TRANSF_DATOS - REPORTE 03
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | OBTENCIÓN Y PROCESAMIENTO DE REGISTROS
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | Tipo de Mensaje: CT1 | Fuente: BD TRANSACCIONAL
+20250808.130208.info       | Hora de Inicio: 13:02:09
+20250808.130208.info       | Guardando registros en h2 | cantidad de reg. [63] | total de registros guardados [63]
+20250808.130208.info       | Registros Guardados en H2: 63
+20250808.130208.info       | Hora de Fin: 13:02:09 | Duración: 00:00 | Registros Procesados: 63
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | Tipo de Mensaje: CT2 | Fuente: BD TRANSACCIONAL
+20250808.130208.info       | Hora de Inicio: 13:02:09
+20250808.130208.info       | Guardando registros en h2 | cantidad de reg. [61] | total de registros guardados [61]
+20250808.130208.info       | Registros Guardados en H2: 61
+20250808.130208.info       | Hora de Fin: 13:02:09 | Duración: 00:00 | Registros Procesados: 61
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | Tipo de Mensaje: CT3 | Fuente: BD TRANSACCIONAL
+20250808.130208.info       | Hora de Inicio: 13:02:09
+20250808.130208.info       | Guardando registros en h2 | cantidad de reg. [672] | total de registros guardados [672]
+20250808.130208.info       | Registros Guardados en H2: 672
+20250808.130208.info       | Hora de Fin: 13:02:10 | Duración: 00:00 | Registros Procesados: 672
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | Tipo de Mensaje: CT4 | Fuente: BD TRANSACCIONAL
+20250808.130208.info       | Hora de Inicio: 13:02:10
+20250808.130208.info       | Guardando registros en h2 | cantidad de reg. [686] | total de registros guardados [686]
+20250808.130208.info       | Registros Guardados en H2: 686
+20250808.130208.info       | Hora de Fin: 13:02:10 | Duración: 00:00 | Registros Procesados: 686
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | EXPORTACIÓN Y GENERACIÓN DE REPORTE
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | Exportar Datos desde H2 a: CCE_TRANSF_DATOS_07082025
+20250808.130208.info       | Hora de Inicio: 13:02:10
+20250808.130208.info       | Agregando registros al archivo csv | cantidad de reg. [63] | total de registros agregados [63]
+20250808.130208.info       | Registros Agregados al CSV: 63
+20250808.130208.info       | Hora de Fin: 13:02:10 | Duración: 00:00 | Registros en reporte: 63
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.info       | LIMPIEZA DE REGISTROS EN H2
+20250808.130208.info       | Hora de Inicio: 13:02:10
+20250808.130208.info       | Hora de Fin: 13:02:10 | Duración: 00:00
+20250808.130208.info       | ------------------------------------------------------------------------------------------------------------------------
+20250808.130208.info       | 
+20250808.130208.monitoreo INICIO [13:02:08] FIN [13:02:10] ARCHIVO [CCE_TRANSF_DATOS_07082025] ESTADO [OK] DURACIÓN [00:01] TOTAL DE REG. EN REPORTE [63] 

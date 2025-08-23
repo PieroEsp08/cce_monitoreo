@@ -1,0 +1,66 @@
+20250520.110209.0.error       | Error en validacion de archivos p12 o jks : ../tls/new/servidorTransaccionalTLS.jks
+20250520.110209.0.info       | ./data/echo.json (No such file or directory)
+20250520.110305.0.info       | ./data/echo.json (No such file or directory)
+20250520.110400.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110400.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110448.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110448.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.110525.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.122626.0.error       | No se encontró el archivo indicado. Se obtuvo: C:UsersFrancoVillanuevacceproyectosinmediatas_masivascodigo_fuenteinmediatas_masivasarchivos_procesamientocarga0035MASIVAS20250411110001.csv
+20250520.122626.0.monitoreo  | Inicio [12:26:26] Fin [12:26:26] Archivo [C:UsersFrancoVillanuevacceproyectosinmediatas_masivascodigo_fuenteinmediatas_masivasarchivos_procesamientocarga0035MASIVAS20250411110001.csv] Duración [00:00] Estado [SIN PROCESAR] ERROR [No se encontró el archivo indicado. Se obtuvo: C:UsersFrancoVillanuevacceproyectosinmediatas_masivascodigo_fuenteinmediatas_masivasarchivos_procesamientocarga0035MASIVAS20250411110001.csv]
+20250520.141512.0.info       | CCE-INMEDIATAS-MASIVAS
+20250520.141512.0.info       | Fecha y hora de procesamiento: 2025-05-20 02:15:13
+20250520.141512.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.141512.0.error       | ECHO TEST [connect timed out]
+20250520.141512.0.monitoreo  | Inicio [02:15:16] Fin [02:15:16] Archivo [0035MASIVAS20250411110001.csv] Duración [00:00] Estado [SIN PROCESAR] ERROR [connect timed out]
+20250520.141555.0.info       | CCE-INMEDIATAS-MASIVAS
+20250520.141555.0.info       | Fecha y hora de procesamiento: 2025-05-20 02:15:55
+20250520.141555.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.141555.0.info       |   ECHO TEST [OK]
+20250520.141555.0.info       |   Archivo                               : 0035MASIVAS20250411110001.csv
+20250520.141555.0.info       |   NÚmero de hilos                       : 10
+20250520.141555.0.info       |   NÚmero de intentos                    : 3
+20250520.141555.0.info       |   Time Out                              : 15 segundos
+20250520.141555.0.info       |   Total Registros Encontrados           : 26
+20250520.141555.0.info       |   Límite de registros a procesar        : 10000
+20250520.141555.0.info       |   Uso de TLS                            : SI
+20250520.141555.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.141555.0.info       | HILO [02] POS [03] MSG. [0200] CREDITOR [0053] TRACE [053303] CREDITORCCI [05302900111808300656] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.192]
+20250520.141555.0.info       | HILO [07] POS [08] MSG. [0200] CREDITOR [0053] TRACE [053308] CREDITORCCI [05300100100042400145] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.189]
+20250520.141555.0.info       | HILO [04] POS [05] MSG. [0200] CREDITOR [0053] TRACE [053305] CREDITORCCI [05304000114072000228] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.257]
+20250520.141555.0.info       | HILO [00] POS [01] MSG. [0200] CREDITOR [0053] TRACE [053301] CREDITORCCI [05302300108676400182] | RESPONSE [05] REASON [AC11] INTENTOS [1] RSPT_SEG [05.234]
+20250520.141555.0.info       | HILO [09] POS [10] MSG. [0200] CREDITOR [0053] TRACE [053310] CREDITORCCI [05302900112135600357] | RESPONSE [05] REASON [AC11] INTENTOS [1] RSPT_SEG [05.576]
+20250520.141555.0.info       | HILO [05] POS [06] MSG. [0200] CREDITOR [0053] TRACE [053306] CREDITORCCI [05303000100006200436] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.664]
+20250520.141555.0.info       | HILO [01] POS [02] MSG. [0200] CREDITOR [0053] TRACE [053302] CREDITORCCI [05300100126077700148] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.793]
+20250520.141555.0.info       | HILO [03] POS [04] MSG. [0200] CREDITOR [0053] TRACE [053304] CREDITORCCI [05304000135086900224] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.861]
+20250520.141555.0.info       | HILO [06] POS [07] MSG. [0200] CREDITOR [0053] TRACE [053307] CREDITORCCI [05304000115686800128] | RESPONSE [00] INTENTOS [1] RSPT_SEG [06.041]
+20250520.141555.0.info       | HILO [08] POS [09] MSG. [0200] CREDITOR [0053] TRACE [053309] CREDITORCCI [05302300108716100189] | RESPONSE [00] INTENTOS [1] RSPT_SEG [06.313]
+20250520.141555.0.info       | HILO [00] POS [14] MSG. [0200] CREDITOR [0053] TRACE [053314] CREDITORCCI [05300100105673200144] | RESPONSE [00] INTENTOS [1] RSPT_SEG [01.675]
+20250520.141555.0.info       | HILO [02] POS [11] MSG. [0200] CREDITOR [0053] TRACE [053311] CREDITORCCI [05300100115439300147] | RESPONSE [05] REASON [AC06] INTENTOS [1] RSPT_SEG [01.902]
+20250520.141555.0.info       | HILO [04] POS [13] MSG. [0200] CREDITOR [0053] TRACE [053313] CREDITORCCI [05300100115988800148] | RESPONSE [05] REASON [AC06] INTENTOS [1] RSPT_SEG [01.895]
+20250520.141555.0.info       | HILO [07] POS [12] MSG. [0200] CREDITOR [0053] TRACE [053312] CREDITORCCI [05300100115968100147] | RESPONSE [05] REASON [AC06] INTENTOS [1] RSPT_SEG [02.016]
+20250520.141555.0.info       | HILO [09] POS [15] MSG. [0200] CREDITOR [0053] TRACE [053315] CREDITORCCI [05303000116457200139] | RESPONSE [00] INTENTOS [1] RSPT_SEG [02.011]
+20250520.141555.0.info       | HILO [05] POS [16] MSG. [0200] CREDITOR [0053] TRACE [053316] CREDITORCCI [05302300108776100389] | RESPONSE [00] INTENTOS [1] RSPT_SEG [02.078]
+20250520.141555.0.info       | HILO [01] POS [17] MSG. [0200] CREDITOR [0053] TRACE [053317] CREDITORCCI [05304000131101400122] | RESPONSE [05] REASON [AC07] INTENTOS [1] RSPT_SEG [01.953]
+20250520.141555.0.info       | HILO [06] POS [19] MSG. [0200] CREDITOR [0053] TRACE [053319] CREDITORCCI [05300100129666000240] | RESPONSE [05] REASON [AC07] INTENTOS [1] RSPT_SEG [01.915]
+20250520.141555.0.info       | HILO [03] POS [18] MSG. [0200] CREDITOR [0053] TRACE [053318] CREDITORCCI [05300100105673200242] | RESPONSE [00] INTENTOS [1] RSPT_SEG [02.075]
+20250520.141555.0.info       | HILO [08] POS [20] MSG. [0200] CREDITOR [0053] TRACE [053320] CREDITORCCI [05300100100831500248] | RESPONSE [05] REASON [FF07] INTENTOS [1] RSPT_SEG [01.921]
+20250520.141555.0.info       | HILO [05] POS [26] MSG. [0200] CREDITOR [0053] TRACE [053326] CREDITORCCI [] | RESPONSE [05] REASON [AC01] INTENTOS [1] RSPT_SEG [04.142]
+20250520.141555.0.info       | HILO [07] POS [24] MSG. [0200] CREDITOR [0053] TRACE [053324] CREDITORCCI [] | RESPONSE [00] INTENTOS [1] RSPT_SEG [04.689]
+20250520.141555.0.info       | HILO [00] POS [21] MSG. [0200] CREDITOR [0053] TRACE [053321] CREDITORCCI [] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.119]
+20250520.141555.0.info       | HILO [02] POS [22] MSG. [0200] CREDITOR [0053] TRACE [053322] CREDITORCCI [] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.126]
+20250520.141555.0.info       | HILO [04] POS [23] MSG. [0200] CREDITOR [0053] TRACE [053323] CREDITORCCI [] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.519]
+20250520.141555.0.info       | HILO [09] POS [25] MSG. [0200] CREDITOR [0053] TRACE [053325] CREDITORCCI [] | RESPONSE [00] INTENTOS [1] RSPT_SEG [05.254]
+20250520.141555.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.141555.0.monitoreo  | Inicio [02:15:57] Fin [02:16:10] Archivo [0035MASIVAS20250411110001.csv] Duración [00:12] Estado [PROCESADO CON ERRORES] RESPUESTA OK [17 /26] RECHAZADOS [9 /26] TIMEOUT [0 /26] OTROS ERRORES [0 /26] 
+20250520.145340.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250520.145340.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------

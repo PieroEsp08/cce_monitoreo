@@ -1,0 +1,148 @@
+.table-container {
+  background-color: #f5f8fa; /* Gris muy claro para fondo */
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  color: #333; /* texto oscuro para buena legibilidad */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-table th,
+.report-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.report-table thead {
+  background-color: #3f51b5; /* azul moderado */
+  color: white;
+}
+
+.report-table th {
+  font-weight: 600;
+  border-bottom: 3px solid #283593; /* azul oscuro para separación */
+}
+
+.report-table tbody tr {
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.report-table tbody tr:hover {
+  background-color: #e8eaf6; /* azul muy claro en hover */
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+
+.log-screen {
+  background-color: #1e1e2f;
+  color: #c5c8c6;
+  font-family: monospace;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-radius: 6px;
+  height: 245px;
+  overflow-y: auto;  /* Scroll vertical aquí */
+  box-shadow: inset 0 0 10px #0008;
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+}
+
+.log-screen pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: hidden;  /* Solo controla horizontal */
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  max-height: none;    /* Quita límite de altura */
+}
+
+
+.filters-container {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+  width: 100%;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.filter-item label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.filter-item input,
+.filter-item select {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.filter-item input:focus,
+.filter-item select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 4px rgba(59,130,246,0.5);
+}
+
+.filter-button {
+  flex: 0 0 auto;
+}
+
+.filter-button button {
+  background: #3b82f6;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.filter-button button:hover {
+  background: #2563eb;
+}
+
+
+.table-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+
+

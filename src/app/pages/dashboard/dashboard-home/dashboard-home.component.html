@@ -1,0 +1,45 @@
+
+<div class="cards-container">
+  <div class="card">
+    <i class="bi bi-file-earmark-text icon"></i>
+    <h4>Reportes Generados Hoy</h4>
+    <p class="number">{{ reportesHoy }}</p>
+  </div>
+  <div class="card">
+    <i class="bi bi-gear-fill icon"></i>
+    <h4>Procesos Automáticos Ejecutados</h4>
+    <p class="number">{{ procesosAutomaticos }}</p>
+  </div>
+  <div class="card">
+    <i class="bi bi-bank icon"></i>
+    <h4>Archivos Recibidos de Bancos</h4>
+    <p class="number">{{ archivosBancos }}</p>
+  </div>
+  <div class="card">
+    <i class="bi bi-exclamation-triangle-fill icon error"></i>
+    <h4>Procesos con Error</h4>
+    <p class="number error">{{ procesosError }}</p>
+  </div>
+</div>
+
+
+
+<div class="grid-container">
+  <div class="chart-box">
+    <canvas #myBarChart></canvas>
+  </div>
+
+  <div class="chart-box">
+    <canvas #myLineChart></canvas>
+  </div>
+
+  <div class="chart-box">
+
+    <canvas #myPieChart></canvas>
+  </div>
+
+  <div class="chart-box">
+
+    <canvas #myDoughnutChart></canvas>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+
+<div class="filters-container">
+  <!-- Filtro por fecha inicio -->
+  <div class="filter-item">
+    <label for="fechaInicio">Desde:</label>
+    <input type="date" id="fechaInicio" [(ngModel)]="filtros.fechaInicio">
+  </div>
+
+  <!-- Filtro por fecha fin -->
+  <div class="filter-item">
+    <label for="fechaFin">Hasta:</label>
+    <input type="date" id="fechaFin" [(ngModel)]="filtros.fechaFin">
+  </div>
+
+  <!-- Filtro por banco -->
+  <div class="filter-item">
+    <label for="banco">Banco:</label>
+    <select id="banco" [(ngModel)]="filtros.banco">
+      <option value="">Todos</option>
+      <option *ngFor="let banco of bancos" [value]="banco">{{ banco }}</option>
+    </select>
+  </div>
+
+  <!-- Botón -->
+  <div class="filter-item filter-button">
+    <button (click)="aplicarFiltros()">Filtrar</button>
+  </div>
+</div>
+
+
+<div class="table-container">
+  <table class="report-table">
+    <thead>
+      <tr>
+        <th>Banco</th>
+        <th>Nombre del Archivo</th>
+        <th>Fecha de Recepción</th>
+        <th>Estado</th>
+        <th>Tamaño</th>
+        <th>Proceso Asociado</th>
+        <th>Ver Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="registros.length === 0">
+        <td colspan="8" class="no-data">No hay registros disponibles</td>
+      </tr>
+            <tr *ngFor="let reporte of registros">
+        <td>{{ reporte.banco }}</td>
+        <td>{{ reporte.nombreArchivo }}</td>
+        <td>{{ reporte.fechaRecepcion }}</td>
+        <td>{{ reporte.estado }}</td>
+        <td>{{ reporte.tamanio }}</td>
+        <td>{{ reporte.procesoAsociado }}</td>
+        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

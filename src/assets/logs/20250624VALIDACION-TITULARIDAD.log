@@ -1,0 +1,145 @@
+20250624.121929.0.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.121929.0.info       | Fecha y hora de procesamiento: 2025-06-24 12:19:29
+20250624.121929.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.121929.0.info       |   ECHO TEST [OK]
+20250624.121929.0.info       |   Archivo                               : 0035TITULARIDAD202506181349.csv
+20250624.121929.0.info       |   NÚmero de hilos                       : 10
+20250624.121929.0.info       |   NÚmero de intentos                    : 3
+20250624.121929.0.info       |   Time Out                              : 15 segundos
+20250624.121929.0.info       |   Total Registros Encontrados           : 12
+20250624.121929.0.info       |   Límite de registros a procesar        : 1000
+20250624.121929.0.info       |   Uso de TLS                            : NO
+20250624.121929.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.121929.0.info       | HILO [04] POS [05] CCI [8004969844] TIPO [2] DNI [80582585] TRACE [101310] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.121929.0.info       | HILO [07] POS [08] CCI [7000636742] TIPO [6] DNI [20604797293] TRACE [101313] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.121929.0.info       | HILO [06] POS [07] CCI [03841520700067135166] TIPO [6] DNI [10091799192] TRACE [101312] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [05] POS [06] CCI [03840410800441026007] TIPO [2] DNI [80518114] TRACE [101311] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [09] POS [10] CCI [03840610801341327651] TIPO [2] DNI [80997133] TRACE [101315] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [00] POS [01] CCI [03871010801487591503] TIPO [2] DNI [80251330] TRACE [101306] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [01] POS [02] CCI [03862010801159698510] TIPO [2] DNI [80282976] TRACE [101307] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [07] POS [12] CCI [03810110802183112028] TIPO [2] DNI [45759832] TRACE [101317] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [03] POS [04] CCI [03863010801708265703] TIPO [2] DNI [80664674] TRACE [101309] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.217] |                      | 
+20250624.121929.0.info       | HILO [08] POS [09] CCI [03850110700067649332] TIPO [6] DNI [20604895775] TRACE [101314] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.226] |                      | 
+20250624.121929.0.info       | HILO [04] POS [11] CCI [03867010803188780263] TIPO [2] DNI [90709628] TRACE [101316] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.346] |                      | 
+20250624.121929.0.info       | HILO [02] POS [03] CCI [03810110801804293423] TIPO [6] DNI [20606405678] TRACE [101308] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.325] |                      | 
+20250624.121929.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.121929.0.monitoreo  | Inicio [12:19:29] Fin [12:19:30] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [ERROR] RESPUESTA OK [0 /12] RECHAZADOS [10 /12] TIMEOUT [0 /12] OTROS ERRORES [2 /12] 
+20250624.143521.0.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.143521.0.info       | Fecha y hora de procesamiento: 2025-06-24 02:35:21
+20250624.143521.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143521.0.info       |   ECHO TEST [OK]
+20250624.143521.0.info       |   Archivo                               : 0035TITULARIDAD202506181349.csv
+20250624.143521.0.info       |   NÚmero de hilos                       : 10
+20250624.143521.0.info       |   NÚmero de intentos                    : 3
+20250624.143521.0.info       |   Time Out                              : 15 segundos
+20250624.143521.0.info       |   Total Registros Encontrados           : 12
+20250624.143521.0.info       |   Límite de registros a procesar        : 1000
+20250624.143521.0.info       |   Uso de TLS                            : NO
+20250624.143521.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143521.0.info       | HILO [07] POS [08] CCI [7000636742] TIPO [6] DNI [20604797293] TRACE [101325] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143521.0.info       | HILO [04] POS [05] CCI [8004969844] TIPO [2] DNI [80582585] TRACE [101322] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143521.0.info       | HILO [00] POS [01] CCI [03871010801487591503] TIPO [2] DNI [80251330] TRACE [101318] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.175] |                      | 
+20250624.143521.0.info       | HILO [07] POS [11] CCI [03867010803188780263] TIPO [2] DNI [90709628] TRACE [101328] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.178] |                      | 
+20250624.143521.0.info       | HILO [02] POS [03] CCI [03810110801804293423] TIPO [6] DNI [20606405678] TRACE [101320] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.177] |                      | 
+20250624.143521.0.info       | HILO [08] POS [09] CCI [03850110700067649332] TIPO [6] DNI [20604895775] TRACE [101326] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.191] |                      | 
+20250624.143521.0.info       | HILO [09] POS [10] CCI [03840610801341327651] TIPO [2] DNI [80997133] TRACE [101327] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.175] |                      | 
+20250624.143521.0.info       | HILO [01] POS [02] CCI [03862010801159698510] TIPO [2] DNI [80282976] TRACE [101319] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.195] |                      | 
+20250624.143521.0.info       | HILO [04] POS [12] CCI [03810110802183112028] TIPO [2] DNI [45759832] TRACE [101329] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.199] |                      | 
+20250624.143521.0.info       | HILO [05] POS [06] CCI [03840410800441026007] TIPO [2] DNI [80518114] TRACE [101323] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.200] |                      | 
+20250624.143521.0.info       | HILO [06] POS [07] CCI [03841520700067135166] TIPO [6] DNI [10091799192] TRACE [101324] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.199] |                      | 
+20250624.143521.0.info       | HILO [03] POS [04] CCI [03863010801708265703] TIPO [2] DNI [80664674] TRACE [101321] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.325] |                      | 
+20250624.143521.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143521.0.monitoreo  | Inicio [02:35:21] Fin [02:35:22] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [ERROR] RESPUESTA OK [0 /12] RECHAZADOS [10 /12] TIMEOUT [0 /12] OTROS ERRORES [2 /12] 
+20250624.143755.2.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.143755.2.info       | Fecha y hora de procesamiento: 2025-06-24 02:37:55
+20250624.143755.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143755.2.info       |   ECHO TEST [OK]
+20250624.143755.2.info       |   Archivo                               : 0035TITULARIDAD202506181349.csv
+20250624.143755.2.info       |   NÚmero de hilos                       : 10
+20250624.143755.2.info       |   NÚmero de intentos                    : 3
+20250624.143755.2.info       |   Time Out                              : 15 segundos
+20250624.143755.2.info       |   Total Registros Encontrados           : 12
+20250624.143755.2.info       |   Límite de registros a procesar        : 1000
+20250624.143755.2.info       |   Uso de TLS                            : NO
+20250624.143755.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143755.2.info       | HILO [07] POS [08] CCI [7000636742] TIPO [6] DNI [20604797293] TRACE [216216] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143755.2.info       | HILO [04] POS [05] CCI [8004969844] TIPO [2] DNI [80582585] TRACE [216213] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143755.2.info       | HILO [08] POS [09] CCI [03850110700067649332] TIPO [6] DNI [20604895775] TRACE [216217] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.199] |                      | 
+20250624.143755.2.info       | HILO [01] POS [02] CCI [03862010801159698510] TIPO [2] DNI [80282976] TRACE [216210] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.192] |                      | 
+20250624.143755.2.info       | HILO [00] POS [01] CCI [03871010801487591503] TIPO [2] DNI [80251330] TRACE [216209] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.191] |                      | 
+20250624.143755.2.info       | HILO [03] POS [04] CCI [03863010801708265703] TIPO [2] DNI [80664674] TRACE [216212] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.191] |                      | 
+20250624.143755.2.info       | HILO [09] POS [10] CCI [03840610801341327651] TIPO [2] DNI [80997133] TRACE [216218] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.190] |                      | 
+20250624.143755.2.info       | HILO [06] POS [07] CCI [03841520700067135166] TIPO [6] DNI [10091799192] TRACE [216215] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.190] |                      | 
+20250624.143755.2.info       | HILO [02] POS [03] CCI [03810110801804293423] TIPO [6] DNI [20606405678] TRACE [216211] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.189] |                      | 
+20250624.143755.2.info       | HILO [07] POS [11] CCI [03867010803188780263] TIPO [2] DNI [90709628] TRACE [216219] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.189] |                      | 
+20250624.143755.2.info       | HILO [04] POS [12] CCI [03810110802183112028] TIPO [2] DNI [45759832] TRACE [216220] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.185] |                      | 
+20250624.143755.2.info       | HILO [05] POS [06] CCI [03840410800441026007] TIPO [2] DNI [80518114] TRACE [216214] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.192] |                      | 
+20250624.143755.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143755.2.monitoreo  | Inicio [02:37:55] Fin [02:37:55] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [ERROR] RESPUESTA OK [0 /12] RECHAZADOS [10 /12] TIMEOUT [0 /12] OTROS ERRORES [2 /12] 
+20250624.143802.2.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.143802.2.info       | Fecha y hora de procesamiento: 2025-06-24 02:38:02
+20250624.143802.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143802.2.info       |   ECHO TEST [OK]
+20250624.143802.2.info       |   Archivo                               : 0035TITULARIDAD202506181349.csv
+20250624.143802.2.info       |   NÚmero de hilos                       : 10
+20250624.143802.2.info       |   NÚmero de intentos                    : 3
+20250624.143802.2.info       |   Time Out                              : 15 segundos
+20250624.143802.2.info       |   Total Registros Encontrados           : 12
+20250624.143802.2.info       |   Límite de registros a procesar        : 1000
+20250624.143802.2.info       |   Uso de TLS                            : NO
+20250624.143802.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143802.2.info       | HILO [04] POS [05] CCI [8004969844] TIPO [2] DNI [80582585] TRACE [216225] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143802.2.info       | HILO [07] POS [08] CCI [7000636742] TIPO [6] DNI [20604797293] TRACE [216228] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.143802.2.info       | HILO [05] POS [06] CCI [03840410800441026007] TIPO [2] DNI [80518114] TRACE [216226] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.157] |                      | 
+20250624.143802.2.info       | HILO [03] POS [04] CCI [03863010801708265703] TIPO [2] DNI [80664674] TRACE [216224] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.159] |                      | 
+20250624.143802.2.info       | HILO [01] POS [02] CCI [03862010801159698510] TIPO [2] DNI [80282976] TRACE [216222] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.143] |                      | 
+20250624.143802.2.info       | HILO [06] POS [07] CCI [03841520700067135166] TIPO [6] DNI [10091799192] TRACE [216227] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.158] |                      | 
+20250624.143802.2.info       | HILO [08] POS [09] CCI [03850110700067649332] TIPO [6] DNI [20604895775] TRACE [216229] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.191] |                      | 
+20250624.143802.2.info       | HILO [07] POS [12] CCI [03810110802183112028] TIPO [2] DNI [45759832] TRACE [216232] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.168] |                      | 
+20250624.143802.2.info       | HILO [04] POS [11] CCI [03867010803188780263] TIPO [2] DNI [90709628] TRACE [216231] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.168] |                      | 
+20250624.143802.2.info       | HILO [02] POS [03] CCI [03810110801804293423] TIPO [6] DNI [20606405678] TRACE [216223] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.182] |                      | 
+20250624.143802.2.info       | HILO [09] POS [10] CCI [03840610801341327651] TIPO [2] DNI [80997133] TRACE [216230] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.182] |                      | 
+20250624.143802.2.info       | HILO [00] POS [01] CCI [03871010801487591503] TIPO [2] DNI [80251330] TRACE [216221] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.181] |                      | 
+20250624.143802.2.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143802.2.monitoreo  | Inicio [02:38:02] Fin [02:38:03] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [ERROR] RESPUESTA OK [0 /12] RECHAZADOS [10 /12] TIMEOUT [0 /12] OTROS ERRORES [2 /12] 
+20250624.143816.1.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.143816.1.info       | Fecha y hora de procesamiento: 2025-06-24 02:38:16
+20250624.143816.1.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.143816.1.error       | No se encontro un valor para el trace con la instancia 1
+20250624.143816.1.monitoreo  | Inicio [02:38:16] Fin [02:38:16] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [SIN PROCESAR] ERROR [No se encontro un valor para el trace con la instancia 1]
+20250624.144341.0.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.144341.0.info       | Fecha y hora de procesamiento: 2025-06-24 02:43:41
+20250624.144341.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.144341.0.error       | No existen registros para procesar : 0
+20250624.144341.0.monitoreo  | Inicio [02:43:41] Fin [02:43:41] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [SIN PROCESAR] ERROR [No existen registros para procesar : 0]
+20250624.144356.0.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.144356.0.info       | Fecha y hora de procesamiento: 2025-06-24 02:43:56
+20250624.144356.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.144356.0.error       | Numero de registros diferente al indicado en la ultima fila [REGISTROS=12]
+20250624.144356.0.monitoreo  | Inicio [02:43:56] Fin [02:43:56] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [SIN PROCESAR] ERROR [Numero de registros diferente al indicado en la ultima fila [REGISTROS=12]]
+20250624.150150.0.info       | CCE-VALIDACIÓN TITULARIDAD
+20250624.150150.0.info       | Fecha y hora de procesamiento: 2025-06-24 03:01:50
+20250624.150150.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.150150.0.info       |   ECHO TEST [OK]
+20250624.150150.0.info       |   Archivo                               : 0035TITULARIDAD202506181349.csv
+20250624.150150.0.info       |   NÚmero de hilos                       : 10
+20250624.150150.0.info       |   NÚmero de intentos                    : 3
+20250624.150150.0.info       |   Time Out                              : 15 segundos
+20250624.150150.0.info       |   Total Registros Encontrados           : 12
+20250624.150150.0.info       |   Límite de registros a procesar        : 1000
+20250624.150150.0.info       |   Uso de TLS                            : NO
+20250624.150150.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.150150.0.info       | HILO [07] POS [08] CCI [7000636742] TIPO [6] DNI [20604797293] TRACE [101337] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.150150.0.info       | HILO [04] POS [05] CCI [8004969844] TIPO [2] DNI [80582585] TRACE [101334] | ERROR [Número de cci con longitud distinta a 20] INTENTOS [1] TIEMPO_RSPT [] |                      | 
+20250624.150150.0.info       | HILO [04] POS [12] CCI [03810110802183112028] TIPO [2] DNI [45759832] TRACE [101341] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.190] |                      | 
+20250624.150150.0.info       | HILO [08] POS [09] CCI [03850110700067649332] TIPO [6] DNI [20604895775] TRACE [101338] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.165] |                      | 
+20250624.150150.0.info       | HILO [01] POS [02] CCI [03862010801159698510] TIPO [2] DNI [80282976] TRACE [101331] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.272] |                      | 
+20250624.150150.0.info       | HILO [06] POS [07] CCI [03841520700067135166] TIPO [6] DNI [10091799192] TRACE [101336] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.287] |                      | 
+20250624.150150.0.info       | HILO [02] POS [03] CCI [03810110801804293423] TIPO [6] DNI [20606405678] TRACE [101332] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | HILO [03] POS [04] CCI [03863010801708265703] TIPO [2] DNI [80664674] TRACE [101333] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | HILO [09] POS [10] CCI [03840610801341327651] TIPO [2] DNI [80997133] TRACE [101339] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | HILO [00] POS [01] CCI [03871010801487591503] TIPO [2] DNI [80251330] TRACE [101330] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | HILO [07] POS [11] CCI [03867010803188780263] TIPO [2] DNI [90709628] TRACE [101340] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | HILO [05] POS [06] CCI [03840410800441026007] TIPO [2] DNI [80518114] TRACE [101335] | RESPONSE CODE [05] INTENTOS [1] TIEMPO_RSPT [00.286] |                      | 
+20250624.150150.0.info       | ------------------------------------------------------------------------------------------------------------------------------------------------------
+20250624.150150.0.monitoreo  | Inicio [03:01:51] Fin [03:01:51] Archivo [0035TITULARIDAD202506181349.csv] Duración [00:00] Estado [ERROR] RESPUESTA OK [0 /12] RECHAZADOS [10 /12] TIMEOUT [0 /12] OTROS ERRORES [2 /12] 

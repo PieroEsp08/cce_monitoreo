@@ -1,0 +1,44 @@
+<div class="table-container">
+  <table class="report-table">
+    <thead>
+      <tr>
+        <th>Nombre del Proceso</th>
+        <th>Estado</th>
+        <th>Última Ejecución</th>
+        <th>Tiempo de Proceso</th>
+        <th>Próxima Ejecución</th>
+        <th>Duración</th>
+        <th>Resultado</th>
+        <th>Ver Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="registros.length === 0">
+        <td colspan="8" class="no-data">No hay registros disponibles</td>
+      </tr>
+
+      <tr *ngFor="let reporte of registros">
+        <td>{{ reporte.nombreProceso }}</td>
+
+        <!-- Estado con rectángulo -->
+        <td>
+          <span class="badge"
+                [ngClass]="{
+                  'badge-ejecucion': reporte.estado === 'En ejecución',
+                  'badge-pausa': reporte.estado === 'En pausa',
+                  'badge-deshabilitado': reporte.estado === 'Deshabilitado'
+                }">
+            {{ reporte.estado }}
+          </span>
+        </td>
+
+        <td>{{ reporte.ultimaEjecucion }}</td>
+        <td>{{ reporte.tiempoProceso }}</td>
+        <td>{{ reporte.proximaEjecucion }}</td>
+        <td>{{ reporte.duracion }}</td>
+        <td>{{ reporte.resultado }}</td>
+        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,84 @@
+
+/* Contenedor tarjetas */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 2rem auto 3rem auto;
+}
+
+/* Tarjeta individual */
+.card {
+  color: black;
+  flex: 1; /* igual ancho para todas */
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  text-align: center;
+  cursor: default;
+  transition: background-color 0.3s ease;
+  height: 160px;
+}
+
+.card:hover {
+  background-color: #cbcfd1; /* azul oscuro al hover */
+}
+
+.card h4 {
+  margin-left: 3.5rem; /* deja espacio para el icono */
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card .number {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card .error {
+  color: #ff6b6b; /* rojo para errores */
+}
+
+
+/* icons */
+
+.icon {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #2e86de;
+  pointer-events: none;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+  gap: 2rem; /* espacio entre filas y columnas */
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.grid-container .chart-box h3 {
+  font-size: 1rem; 
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333; 
+}
+
+.chart-box {
+  background: #f5f5f5; 
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  width: 100%;
+  height: 215px;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}

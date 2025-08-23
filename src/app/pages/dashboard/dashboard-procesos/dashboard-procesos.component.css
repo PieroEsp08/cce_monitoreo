@@ -1,0 +1,74 @@
+.table-container {
+  background-color: #f5f8fa; /* Gris muy claro para fondo */
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  color: #333; /* texto oscuro para buena legibilidad */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-table th,
+.report-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.report-table thead {
+  background-color: #3f51b5; /* azul moderado */
+  color: white;
+}
+
+.report-table th {
+  font-weight: 600;
+  border-bottom: 3px solid #283593; /* azul oscuro para separación */
+}
+
+.report-table tbody tr {
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.report-table tbody tr:hover {
+  background-color: #e8eaf6; /* azul muy claro en hover */
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+
+/* Rectángulo base */
+.badge {
+  display: inline-block;
+  min-width: 120px;   /* ancho fijo para que todos los estados tengan mismo tamaño */
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Colores según estado */
+.badge-ejecucion {
+  background-color: rgb(0, 201, 0);
+}
+
+.badge-pausa {
+  background-color: #00bcd4; /* celeste */
+}
+
+.badge-deshabilitado {
+  background-color: red;
+}
+

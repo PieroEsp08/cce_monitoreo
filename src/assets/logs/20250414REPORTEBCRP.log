@@ -1,0 +1,470 @@
+20250414.102420.info       | Reporte BCRP Interoperabilidad
+20250414.102420.info       | Fecha y hora de procesamiento [2025-04-14 10:24]
+20250414.102420.info       | Fecha de operación [20250408]
+20250414.102420.info       | --------------------------------------------
+20250414.102420.info       | OBTENCIÓN DE DATOS
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | Etapa: AV1
+20250414.102420.info       | Hora de Inicio: 10:24:20
+20250414.102420.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.102420.info       | Registros Guardados en H2: 564
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00 | Registros Procesados: 564
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.info       | Etapa: AV4
+20250414.102420.info       | Hora de Inicio: 10:24:21
+20250414.102420.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.102420.info       | Registros Guardados en H2: 563
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00 | Registros Procesados: 563
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.info       | Etapa: Ct1
+20250414.102420.info       | Hora de Inicio: 10:24:21
+20250414.102420.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.102420.info       | Registros Guardados en H2: 97
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00 | Registros Procesados: 97
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.info       | Etapa: Ct4
+20250414.102420.info       | Hora de Inicio: 10:24:21
+20250414.102420.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.102420.info       | Registros Guardados en H2: 99
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00 | Registros Procesados: 99
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.info       | GENERACIÓN DE REPORTE
+20250414.102420.info       | Hora de Inicio: 10:24:21
+20250414.102420.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.102420.info       | Registros Guardados en H2: 661
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00 | Registros Procesados: 661
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.info       | Limpiando datos de H2
+20250414.102420.info       | Hora de Inicio: 10:24:21
+20250414.102420.info       | Hora de Fin: 10:24:21 | Duración: 00:00
+20250414.102420.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102420.info       | 
+20250414.102420.monitoreo  | INICIO [10:24:20] FIN [10:24:21] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]
+20250414.102930.info       | Reporte BCRP Interoperabilidad
+20250414.102930.info       | Fecha y hora de procesamiento [2025-04-14 10:29]
+20250414.102930.info       | Fecha de operación [20250408]
+20250414.102930.info       | --------------------------------------------
+20250414.102930.info       | OBTENCIÓN DE DATOS
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | Etapa: AV1
+20250414.102930.info       | Hora de Inicio: 10:29:30
+20250414.102930.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.102930.info       | Registros Guardados en H2: 564
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00 | Registros Procesados: 564
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.info       | Etapa: AV4
+20250414.102930.info       | Hora de Inicio: 10:29:31
+20250414.102930.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.102930.info       | Registros Guardados en H2: 563
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00 | Registros Procesados: 563
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.info       | Etapa: Ct1
+20250414.102930.info       | Hora de Inicio: 10:29:31
+20250414.102930.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.102930.info       | Registros Guardados en H2: 97
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00 | Registros Procesados: 97
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.info       | Etapa: Ct4
+20250414.102930.info       | Hora de Inicio: 10:29:31
+20250414.102930.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.102930.info       | Registros Guardados en H2: 99
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00 | Registros Procesados: 99
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.info       | GENERACIÓN DE REPORTE
+20250414.102930.info       | Hora de Inicio: 10:29:31
+20250414.102930.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.102930.info       | Registros Guardados en H2: 661
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00 | Registros Procesados: 661
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.info       | Limpiando datos de H2
+20250414.102930.info       | Hora de Inicio: 10:29:31
+20250414.102930.info       | Hora de Fin: 10:29:31 | Duración: 00:00
+20250414.102930.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.102930.info       | 
+20250414.102930.monitoreo  | INICIO [10:29:30] FIN [10:29:31] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]
+20250414.103103.info       | Reporte BCRP Interoperabilidad
+20250414.103103.info       | Fecha y hora de procesamiento [2025-04-14 10:31]
+20250414.103103.info       | Fecha de operación [20250408]
+20250414.103103.info       | --------------------------------------------
+20250414.103103.info       | OBTENCIÓN DE DATOS
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | Etapa: AV1
+20250414.103103.info       | Hora de Inicio: 10:31:03
+20250414.103103.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.103103.info       | Registros Guardados en H2: 564
+20250414.103103.info       | Hora de Fin: 10:31:03 | Duración: 00:00 | Registros Procesados: 564
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.info       | Etapa: AV4
+20250414.103103.info       | Hora de Inicio: 10:31:03
+20250414.103103.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.103103.info       | Registros Guardados en H2: 563
+20250414.103103.info       | Hora de Fin: 10:31:03 | Duración: 00:00 | Registros Procesados: 563
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.info       | Etapa: Ct1
+20250414.103103.info       | Hora de Inicio: 10:31:03
+20250414.103103.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.103103.info       | Registros Guardados en H2: 97
+20250414.103103.info       | Hora de Fin: 10:31:04 | Duración: 00:00 | Registros Procesados: 97
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.info       | Etapa: Ct4
+20250414.103103.info       | Hora de Inicio: 10:31:04
+20250414.103103.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.103103.info       | Registros Guardados en H2: 99
+20250414.103103.info       | Hora de Fin: 10:31:04 | Duración: 00:00 | Registros Procesados: 99
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.info       | GENERACIÓN DE REPORTE
+20250414.103103.info       | Hora de Inicio: 10:31:04
+20250414.103103.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.103103.info       | Registros Guardados en H2: 661
+20250414.103103.info       | Hora de Fin: 10:31:04 | Duración: 00:00 | Registros Procesados: 661
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.info       | Limpiando datos de H2
+20250414.103103.info       | Hora de Inicio: 10:31:04
+20250414.103103.info       | Hora de Fin: 10:31:04 | Duración: 00:00
+20250414.103103.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.103103.info       | 
+20250414.103103.monitoreo  | INICIO [10:31:03] FIN [10:31:04] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]
+HikariPool-2 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:file:h2/reporte_db;MODE=PostgreSQL;". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.ConnectionInfo.getName(ConnectionInfo.java:464) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:49) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:962) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:983) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:331) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at com.cce.reporte.bcrp.dao.CreacionBdH2DaoImpl.creacionTablas(CreacionBdH2DaoImpl.java:29) ~[classes/:?]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:61) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+HikariPool-2 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:file:h2/reporte_db;MODE=PostgreSQL;". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.ConnectionInfo.getName(ConnectionInfo.java:464) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:49) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:962) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:983) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:331) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at com.cce.reporte.bcrp.dao.CreacionBdH2DaoImpl.creacionTablas(CreacionBdH2DaoImpl.java:29) ~[classes/:?]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:61) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:64) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	... 5 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:64) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	... 5 more
+HikariPool-2 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:file:data/h2/reporte_db;MODE=PostgreSQL;". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.ConnectionInfo.getName(ConnectionInfo.java:464) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:49) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:962) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:983) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:331) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at com.cce.reporte.bcrp.dao.CreacionBdH2DaoImpl.creacionTablas(CreacionBdH2DaoImpl.java:29) ~[classes/:?]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:61) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+HikariPool-2 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:file:data/h2/reporte_db;MODE=PostgreSQL;". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.ConnectionInfo.getName(ConnectionInfo.java:464) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:49) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:962) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:983) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:331) ~[spring-jdbc-5.3.30.jar:5.3.30]
+	at com.cce.reporte.bcrp.dao.CreacionBdH2DaoImpl.creacionTablas(CreacionBdH2DaoImpl.java:29) ~[classes/:?]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:61) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:64) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	... 5 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.16.jar:2.7.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.16.jar:2.7.16]
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.main(ReporteDiarioBcrpApplication.java:39) ~[classes/:?]
+Caused by: java.lang.RuntimeException
+	at com.cce.reporte.bcrp.ReporteDiarioBcrpApplication.run(ReporteDiarioBcrpApplication.java:64) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.16.jar:2.7.16]
+	... 5 more
+20250414.105530.info       | Reporte BCRP Interoperabilidad
+20250414.105530.info       | Fecha y hora de procesamiento [2025-04-14 10:55]
+20250414.105530.info       | Fecha de operación [20250408]
+20250414.105530.info       | --------------------------------------------
+20250414.105530.info       | OBTENCIÓN DE DATOS
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | Etapa: AV1
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.105530.info       | Registros Guardados en H2: 564
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00 | Registros Procesados: 564
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.info       | Etapa: AV4
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.105530.info       | Registros Guardados en H2: 563
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00 | Registros Procesados: 563
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.info       | Etapa: Ct1
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.105530.info       | Registros Guardados en H2: 97
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00 | Registros Procesados: 97
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.info       | Etapa: Ct4
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.105530.info       | Registros Guardados en H2: 99
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00 | Registros Procesados: 99
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.info       | GENERACIÓN DE REPORTE
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.105530.info       | Registros Guardados en H2: 661
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00 | Registros Procesados: 661
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.info       | Limpiando datos de H2
+20250414.105530.info       | Hora de Inicio: 10:55:31
+20250414.105530.info       | Hora de Fin: 10:55:31 | Duración: 00:00
+20250414.105530.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105530.info       | 
+20250414.105530.monitoreo  | INICIO [10:55:30] FIN [10:55:31] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]
+20250414.105551.info       | Reporte BCRP Interoperabilidad
+20250414.105551.info       | Fecha y hora de procesamiento [2025-04-14 10:55]
+20250414.105551.info       | Fecha de operación [20250408]
+20250414.105551.info       | --------------------------------------------
+20250414.105551.info       | OBTENCIÓN DE DATOS
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | Etapa: AV1
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.105551.info       | Registros Guardados en H2: 564
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00 | Registros Procesados: 564
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.info       | Etapa: AV4
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.105551.info       | Registros Guardados en H2: 563
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00 | Registros Procesados: 563
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.info       | Etapa: Ct1
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.105551.info       | Registros Guardados en H2: 97
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00 | Registros Procesados: 97
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.info       | Etapa: Ct4
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.105551.info       | Registros Guardados en H2: 99
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00 | Registros Procesados: 99
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.info       | GENERACIÓN DE REPORTE
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.105551.info       | Registros Guardados en H2: 661
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00 | Registros Procesados: 661
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.info       | Limpiando datos de H2
+20250414.105551.info       | Hora de Inicio: 10:55:51
+20250414.105551.info       | Hora de Fin: 10:55:51 | Duración: 00:00
+20250414.105551.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105551.info       | 
+20250414.105551.monitoreo  | INICIO [10:55:51] FIN [10:55:51] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]
+20250414.105603.info       | Reporte BCRP Interoperabilidad
+20250414.105603.info       | Fecha y hora de procesamiento [2025-04-14 10:56]
+20250414.105603.info       | Fecha de operación [20250408]
+20250414.105603.info       | --------------------------------------------
+20250414.105603.info       | OBTENCIÓN DE DATOS
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | Etapa: AV1
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Guardando registros en h2 | cantidad de reg. [564]
+20250414.105603.info       | Registros Guardados en H2: 564
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00 | Registros Procesados: 564
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.info       | Etapa: AV4
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Guardando registros en h2 | cantidad de reg. [563]
+20250414.105603.info       | Registros Guardados en H2: 563
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00 | Registros Procesados: 563
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.info       | Etapa: Ct1
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Guardando registros en h2 | cantidad de reg. [97]
+20250414.105603.info       | Registros Guardados en H2: 97
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00 | Registros Procesados: 97
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.info       | Etapa: Ct4
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Guardando registros en h2 | cantidad de reg. [99]
+20250414.105603.info       | Registros Guardados en H2: 99
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00 | Registros Procesados: 99
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.info       | GENERACIÓN DE REPORTE
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Generando archivo csv | cantidad de reg. [661]
+20250414.105603.info       | Registros Guardados en H2: 661
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00 | Registros Procesados: 661
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.info       | Limpiando datos de H2
+20250414.105603.info       | Hora de Inicio: 10:56:03
+20250414.105603.info       | Hora de Fin: 10:56:03 | Duración: 00:00
+20250414.105603.info       | ------------------------------------------------------------------------------------------------------------------------
+20250414.105603.info       | 
+20250414.105603.monitoreo  | INICIO [10:56:03] FIN [10:56:03] ARCHIVO [CCE_20250407] ESTADO [OK] DURACIÓN [00:00] TOTAL DE REG. EN REPORTE [661]

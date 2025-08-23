@@ -1,0 +1,250 @@
+0023DIRECTORIO202308070.202308161437.info       | Fecha y hora de procesamiento: 2023-08-16 14:37
+0023DIRECTORIO202308070.202308161437.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161437.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161437.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161437.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161437.monitoreo  | [2023-08-16 14:37] Archivo [0023DIRECTORIO202308070.csv] FIN 14:37 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161438.info       | Fecha y hora de procesamiento: 2023-08-16 14:38
+0023DIRECTORIO202308070.202308161438.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161438.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161438.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161438.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161438.monitoreo  | [2023-08-16 14:38] Archivo [0023DIRECTORIO202308070.csv] FIN 14:38 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161438.info       | Fecha y hora de procesamiento: 2023-08-16 14:39
+0023DIRECTORIO202308070.202308161438.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161438.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161438.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161438.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161438.monitoreo  | [2023-08-16 14:39] Archivo [0023DIRECTORIO202308070.csv] FIN 14:39 DURACIÓN [00:17] ESTADO [GENERADO]
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.cce.generatorzip.GenerarReporteApplication.main(GenerarReporteApplication.java:25) ~[classes/:?]
+Caused by: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [select
+	*
+from 
+(
+	select 
+		bank_id entidad, 
+    	alias celular, 
+    	account_id CCI, 
+    	case when TO_CHAR(deleted_time ,'YYYY') = '1970' then 'ACTIVE' else 'REMOVE' end status,
+    	case when TO_CHAR(deleted_time ,'YYYY') = '1970' then to_char(created_time, 'YYYY-MM-DD HH24:MI:SS') else to_char(deleted_time, 'YYYY-MM-DD HH24:MI:SS') end date,
+    	deleted_time as fecha_eliminacion,
+    	created_time as fecha_creacion 
+    from ipf_alias ia
+    where ia.bank_code = ?
+) registros_entidad
+where 
+	registros_entidad.status = 'ACTIVE' OR
+	(registros_entidad.status = 'REMOVE' and registros_entidad.fecha_eliminacion >= ? and registros_entidad.fecha_eliminacion <= ?) 
+order by registros_entidad.status asc , registros_entidad.date ,registros_entidad.celular ]; El índice de la columna está fuera de rango: 4, número de columnas: 3.; nested exception is org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 4, número de columnas: 3.
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1583) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:675) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:721) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:752) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:765) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:818) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistrosBd(AliasDAOImpl.java:65) ~[classes/:?]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistros(AliasDAOImpl.java:40) ~[classes/:?]
+	at com.cce.generatorzip.servicios.DataAccessServiceImpl.obtenerDatosAlias(DataAccessServiceImpl.java:23) ~[classes/:?]
+	at com.cce.generatorzip.servicios.GeneradorImpl.generarArchivoCsvConEntidadFecha(GeneradorImpl.java:36) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.iniciaProceso(GenerarReporteApplication.java:44) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.run(GenerarReporteApplication.java:35) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar:2.7.14]
+	... 5 more
+Caused by: org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 4, número de columnas: 3.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.core.v3.SimpleParameterList.setStringParameter(SimpleParameterList.java:133) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.bindString(PgPreparedStatement.java:1064) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setTimestamp(PgPreparedStatement.java:1435) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setTimestamp(PgPreparedStatement.java:398) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setObject(PgPreparedStatement.java:976) ~[postgresql-42.3.8.jar:42.3.8]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.setObject(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:415) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:237) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:168) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:69) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:50) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:728) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:656) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:721) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:752) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:765) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:818) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistrosBd(AliasDAOImpl.java:65) ~[classes/:?]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistros(AliasDAOImpl.java:40) ~[classes/:?]
+	at com.cce.generatorzip.servicios.DataAccessServiceImpl.obtenerDatosAlias(DataAccessServiceImpl.java:23) ~[classes/:?]
+	at com.cce.generatorzip.servicios.GeneradorImpl.generarArchivoCsvConEntidadFecha(GeneradorImpl.java:36) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.iniciaProceso(GenerarReporteApplication.java:44) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.run(GenerarReporteApplication.java:35) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar:2.7.14]
+	... 5 more
+Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.cce.generatorzip.GenerarReporteApplication.main(GenerarReporteApplication.java:25) ~[classes/:?]
+Caused by: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [select
+	*
+from 
+(
+	select 
+		bank_id entidad, 
+    	alias celular, 
+    	account_id CCI, 
+    	case when TO_CHAR(deleted_time ,'YYYY') = '1970' then 'ACTIVE' else 'REMOVE' end status,
+    	case when TO_CHAR(deleted_time ,'YYYY') = '1970' then to_char(created_time, 'YYYY-MM-DD HH24:MI:SS') else to_char(deleted_time, 'YYYY-MM-DD HH24:MI:SS') end date,
+    	deleted_time as fecha_eliminacion,
+    	created_time as fecha_creacion 
+    from ipf_alias ia
+    where ia.bank_code = ?
+) registros_entidad
+where 
+	registros_entidad.status = 'ACTIVE' OR
+	(registros_entidad.status = 'REMOVE' and registros_entidad.fecha_eliminacion >= ? and registros_entidad.fecha_eliminacion <= ?) 
+order by registros_entidad.status asc , registros_entidad.date ,registros_entidad.celular ]; El índice de la columna está fuera de rango: 4, número de columnas: 3.; nested exception is org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 4, número de columnas: 3.
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1583) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:675) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:721) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:752) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:765) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:818) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistrosBd(AliasDAOImpl.java:65) ~[classes/:?]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistros(AliasDAOImpl.java:40) ~[classes/:?]
+	at com.cce.generatorzip.servicios.DataAccessServiceImpl.obtenerDatosAlias(DataAccessServiceImpl.java:23) ~[classes/:?]
+	at com.cce.generatorzip.servicios.GeneradorImpl.generarArchivoCsvConEntidadFecha(GeneradorImpl.java:36) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.iniciaProceso(GenerarReporteApplication.java:44) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.run(GenerarReporteApplication.java:35) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar:2.7.14]
+	... 5 more
+Caused by: org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 4, número de columnas: 3.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.core.v3.SimpleParameterList.setStringParameter(SimpleParameterList.java:133) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.bindString(PgPreparedStatement.java:1064) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setTimestamp(PgPreparedStatement.java:1435) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setTimestamp(PgPreparedStatement.java:398) ~[postgresql-42.3.8.jar:42.3.8]
+	at org.postgresql.jdbc.PgPreparedStatement.setObject(PgPreparedStatement.java:976) ~[postgresql-42.3.8.jar:42.3.8]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.setObject(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:415) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:237) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:168) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:69) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:50) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:728) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:656) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:721) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:752) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:765) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:818) ~[spring-jdbc-5.3.29.jar:5.3.29]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistrosBd(AliasDAOImpl.java:65) ~[classes/:?]
+	at com.cce.generatorzip.dao.AliasDAOImpl.obtenerRegistros(AliasDAOImpl.java:40) ~[classes/:?]
+	at com.cce.generatorzip.servicios.DataAccessServiceImpl.obtenerDatosAlias(DataAccessServiceImpl.java:23) ~[classes/:?]
+	at com.cce.generatorzip.servicios.GeneradorImpl.generarArchivoCsvConEntidadFecha(GeneradorImpl.java:36) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.iniciaProceso(GenerarReporteApplication.java:44) ~[classes/:?]
+	at com.cce.generatorzip.GenerarReporteApplication.run(GenerarReporteApplication.java:35) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.14.jar:2.7.14]
+	... 5 more
+0023DIRECTORIO202308070.202308161440.info       | Fecha y hora de procesamiento: 2023-08-16 14:40
+0023DIRECTORIO202308070.202308161440.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161440.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161440.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161440.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161440.monitoreo  | [2023-08-16 14:40] Archivo [0023DIRECTORIO202308070.csv] FIN 14:40 DURACIÓN [00:00] ESTADO [GENERADO]
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s445ms635µs100ns).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s445ms635µs100ns).
+0023DIRECTORIO202308070.202308161440.info       | Fecha y hora de procesamiento: 2023-08-16 14:42
+0023DIRECTORIO202308070.202308161440.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161440.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161440.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161440.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161440.monitoreo  | [2023-08-16 14:42] Archivo [0023DIRECTORIO202308070.csv] FIN 14:42 DURACIÓN [01:23] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161442.info       | Fecha y hora de procesamiento: 2023-08-16 14:42
+0023DIRECTORIO202308070.202308161442.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161442.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161442.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161442.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161442.monitoreo  | [2023-08-16 14:42] Archivo [0023DIRECTORIO202308070.csv] FIN 14:42 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161443.info       | Fecha y hora de procesamiento: 2023-08-16 14:43
+0023DIRECTORIO202308070.202308161443.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161443.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161443.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161443.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161443.monitoreo  | [2023-08-16 14:43] Archivo [0023DIRECTORIO202308070.csv] FIN 14:43 DURACIÓN [00:00] ESTADO [GENERADO]
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s544ms786µs).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s544ms786µs).
+0023DIRECTORIO202308070.202308161445.info       | Fecha y hora de procesamiento: 2023-08-16 14:46
+0023DIRECTORIO202308070.202308161445.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161445.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161445.info       | Total Registros Declarados: 0
+0023DIRECTORIO202308070.202308161445.info       | Proceso Terminado. [ACTIVE 0][REMOVE 0]
+0023DIRECTORIO202308070.202308161445.monitoreo  | [2023-08-16 14:46] Archivo [0023DIRECTORIO202308070.csv] FIN 14:46 DURACIÓN [01:11] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161449.info       | Fecha y hora de procesamiento: 2023-08-16 14:49
+0023DIRECTORIO202308070.202308161449.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161449.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161449.info       | Total Registros Declarados: 29
+0023DIRECTORIO202308070.202308161449.info       | Proceso Terminado. [ACTIVE 29][REMOVE 0]
+0023DIRECTORIO202308070.202308161449.monitoreo  | [2023-08-16 14:49] Archivo [0023DIRECTORIO202308070.csv] FIN 14:49 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161450.info       | Fecha y hora de procesamiento: 2023-08-16 14:50
+0023DIRECTORIO202308070.202308161450.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161450.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161450.info       | Total Registros Declarados: 29
+0023DIRECTORIO202308070.202308161450.info       | Proceso Terminado. [ACTIVE 29][REMOVE 0]
+0023DIRECTORIO202308070.202308161450.monitoreo  | [2023-08-16 14:50] Archivo [0023DIRECTORIO202308070.csv] FIN 14:50 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161451.info       | Fecha y hora de procesamiento: 2023-08-16 14:51
+0023DIRECTORIO202308070.202308161451.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161451.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161451.info       | Total Registros Declarados: 29
+0023DIRECTORIO202308070.202308161451.info       | Proceso Terminado. [ACTIVE 29][REMOVE 0]
+0023DIRECTORIO202308070.202308161451.monitoreo  | [2023-08-16 14:51] Archivo [0023DIRECTORIO202308070.csv] FIN 14:51 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161453.info       | Fecha y hora de procesamiento: 2023-08-16 14:53
+0023DIRECTORIO202308070.202308161453.info       | Fecha de corte: [20230818]
+0023DIRECTORIO202308070.202308161453.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161453.info       | Total Registros Declarados: 30
+0023DIRECTORIO202308070.202308161453.info       | Proceso Terminado. [ACTIVE 30][REMOVE 0]
+0023DIRECTORIO202308070.202308161453.monitoreo  | [2023-08-16 14:53] Archivo [0023DIRECTORIO202308070.csv] FIN 14:53 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161454.info       | Fecha y hora de procesamiento: 2023-08-16 14:54
+0023DIRECTORIO202308070.202308161454.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161454.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161454.info       | Total Registros Declarados: 29
+0023DIRECTORIO202308070.202308161454.info       | Proceso Terminado. [ACTIVE 29][REMOVE 0]
+0023DIRECTORIO202308070.202308161454.monitoreo  | [2023-08-16 14:54] Archivo [0023DIRECTORIO202308070.csv] FIN 14:54 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161455.info       | Fecha y hora de procesamiento: 2023-08-16 14:55
+0023DIRECTORIO202308070.202308161455.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161455.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161455.info       | Total Registros Declarados: 30
+0023DIRECTORIO202308070.202308161455.info       | Proceso Terminado. [ACTIVE 30][REMOVE 0]
+0023DIRECTORIO202308070.202308161455.monitoreo  | [2023-08-16 14:55] Archivo [0023DIRECTORIO202308070.csv] FIN 14:55 DURACIÓN [00:00] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161504.info       | Fecha y hora de procesamiento: 2023-08-16 15:04
+0023DIRECTORIO202308070.202308161504.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161504.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161504.info       | Total Registros Declarados: 29
+0023DIRECTORIO202308070.202308161504.info       | Proceso Terminado. [ACTIVE 29][REMOVE 0]
+0023DIRECTORIO202308070.202308161504.monitoreo  | [2023-08-16 15:04] Archivo [0023DIRECTORIO202308070.csv] FIN 15:04 DURACIÓN [00:19] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161504.info       | Fecha y hora de procesamiento: 2023-08-16 15:05
+0023DIRECTORIO202308070.202308161504.info       | Fecha de corte: [20230817]
+0023DIRECTORIO202308070.202308161504.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161504.info       | Total Registros Declarados: 30
+0023DIRECTORIO202308070.202308161504.info       | Proceso Terminado. [ACTIVE 30][REMOVE 0]
+0023DIRECTORIO202308070.202308161504.monitoreo  | [2023-08-16 15:05] Archivo [0023DIRECTORIO202308070.csv] FIN 15:05 DURACIÓN [00:41] ESTADO [GENERADO]
+0023DIRECTORIO202308070.202308161649.info       | Fecha y hora de procesamiento: 2023-08-16 16:49
+0023DIRECTORIO202308070.202308161649.info       | Fecha de corte: [20230816]
+0023DIRECTORIO202308070.202308161649.info       | Nombre de archivo: 0023DIRECTORIO202308070.csv
+0023DIRECTORIO202308070.202308161649.info       | Total Registros Declarados: 28
+0023DIRECTORIO202308070.202308161649.info       | Proceso Terminado. [ACTIVE 28][REMOVE 0]
+0023DIRECTORIO202308070.202308161649.monitoreo  | [2023-08-16 16:49] Archivo [0023DIRECTORIO202308070.csv] FIN 16:49 DURACIÓN [00:00] ESTADO [GENERADO]
