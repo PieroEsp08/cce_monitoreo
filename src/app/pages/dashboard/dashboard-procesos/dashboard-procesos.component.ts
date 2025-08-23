@@ -155,12 +155,10 @@ export class DashboardProcesosComponent {
   }
 
   private obtenerMinutosSegunProceso(nombre: string): number {
-    if (['Innmediatas Masivas', 'Validación', 'Titularidad'].includes(nombre)) {
+    if (['Innmediatas Masivas', 'Validación Titularidad', 'Carga Directorio'].includes(nombre)) {
       return 1;
-    } else if (nombre === 'Carga Directorio') {
-      return 2;
     } else if (['Listado Directorio', 'Reporte BCRP', 'Reporte Ciruclar'].includes(nombre)) {
-      return 10;
+      return 2;
     }
     return 0;
   }
