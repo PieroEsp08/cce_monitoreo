@@ -1,0 +1,10 @@
+2025-10-21->02:00 | 02:00:01 ###### Generación de Reportes de movimientos para el BCRP.
+2025-10-21->02:00 | 02:00:01 -------------------------------------------------------------------------
+2025-10-21->02:00 | 02:00:01 Usar SFTP : NO 
+2025-10-21->02:00 | 02:00:01 -------------------------------------------------------------------------
+2025-10-21->02:00 | 02:00:01 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_bcrp_interoperabilidad/reporte_bcrp_interoperabilidad.jar -d 20251020 -f /home/appTEST/appcce/reporte_bcrp_interoperabilidad/archivos/generados/CCE_202510200200.csv -s
+2025-10-21->02:00 | 02:00:04  ... ... Proceso Terminado.
+2025-10-21->02:00 | 02:00:04  ... Comprimiendo archivo : gzip  /home/appTEST/appcce/reporte_bcrp_interoperabilidad/archivos/generados/CCE_202510200200.csv 
+2025-10-21->02:00 | 02:00:04 ... ... Zipeado Terminado.
+2025-10-21->02:00 | 02:00:04 ------ Fin de Proceso ------
+2025-10-21->02:00 | 02:00:04 

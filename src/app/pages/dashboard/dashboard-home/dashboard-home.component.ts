@@ -24,9 +24,9 @@ export class DashboardHomeComponent {
 
   // Datos dinámicos para las tarjetas
   reportesHoy = 124;
-  procesosAutomaticos = 58;
-  archivosBancos = 36;
-  procesosError = 5;
+  procesosAutomaticos = 258;
+  archivosBancos = 120;
+  procesosError = 55;
 
   ngAfterViewInit(): void {
     // Gráfico de barras
@@ -35,7 +35,7 @@ export class DashboardHomeComponent {
       data: {
         labels: ['BCP', 'BBVA', 'Scotiabank', 'Intebank'],
         datasets: [{
-          label: 'Archivos Procesados',
+          label: 'Cantidad de Archivos Procesados Por Día',
           data: [50, 25, 10, 40],
           backgroundColor: 'rgba(54, 162, 235, 0.6)',
           borderColor: 'rgba(54, 162, 235, 1)',
@@ -58,7 +58,7 @@ export class DashboardHomeComponent {
       data: {
         labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
         datasets: [{
-          label: 'Archivos Procesados',
+          label: 'Cantidad de Archivos Procesados Por Mes',
           data: [640, 620, 680, 600, 620,650,830,700,600,645,670,880],
           fill: false,
           borderColor: 'rgba(75, 192, 192, 1)',
@@ -104,7 +104,7 @@ export class DashboardHomeComponent {
     const doughnutConfig: ChartConfiguration = {
       type: 'doughnut',
       data: {
-        labels: ['BCP', 'BBVA', 'Scotiabank', 'Interbank'],
+        labels: ['Procesos con error', 'Procesos en pausa', 'Procesos con advertencias', 'Procesos ejecutados'],
         datasets: [{
           label: 'Colors',
           data: [50, 25, 10, 40],

@@ -1,0 +1,7 @@
+Id Entidad;Nombre de la Entidad Regulada;Rol de la Entidad Regulada;Calidad del Servicio;Ano;Mes;Dia;ICD por medir;Funcionalidad Especifica;Tipo ICD;Cantidad de Consultas Totales del Dia (Exitos);Cant. Consultas Totales <= t;(Cantidad de Consultas Totales del Dia (Exitos) >= tmax segundos);ICD Resultado;Comentarios
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;LookUp;PERCENTIL;757;757;;100.00;
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;LookUpQR;PERCENTIL;5;5;;100.00;
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;Transferencia;PERCENTIL;365;275;;75.34;
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;LookUp;TIEMPO MAXIMO;757;;0;0.00;
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;LookUpQR;TIEMPO MAXIMO;5;;0;0.00;
+5400;CCE;PROCESADOR PAGO;Rendimiento;2025;10;20;TRANSFERENCIA;Transferencia;TIEMPO MAXIMO;365;;90;24.66;

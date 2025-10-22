@@ -19,76 +19,76 @@ export class DashboardServiciosComponent {
 
    registrosOriginal = [
    {
-    banco: 'BCP',
-    nombreArchivo: '002_Innmediatas_Masivas_',
-    fechaRecepcion: '2025-08-08 10:35',
+    banco: 'Interbank',
+    nombreArchivo: '0003MASIVAS20251021190801',
+    fechaRecepcion: '2025-10-21 10:35',
     estado: 'Procesado',
     tamanio: '1.2 MB',
     procesoAsociado: 'Carga de Movimientos',
-    enlaceDetalle: '#'
+    enlaceDescarga: 'assets/logs/0003MASIVAS20251021190801.rpta.csv.pgp'
   },
   {
     banco: 'BCP',
-    nombreArchivo: '002_Validacion_Titularidad_',
-    fechaRecepcion: '2025-08-08 10:35',
+    nombreArchivo: '0011MASIVAS20251002230101',
+    fechaRecepcion: '2025-10-02 10:35',
     estado: 'Procesado',
     tamanio: '1.2 MB',
     procesoAsociado: 'Carga de Movimientos',
-    enlaceDetalle: '#'
-  },
-  {
-    banco: 'Interbank',
-    nombreArchivo: '003_Innmediatas_Masivas_',
-    fechaRecepcion: '2025-08-08 09:20',
-    estado: 'Pendiente',
-    tamanio: '856 KB',
-    procesoAsociado: 'Actualización de Clientes',
-    enlaceDetalle: '#'
-  },
-  {
-    banco: 'Interbank',
-    nombreArchivo: '003_Validacion_Titularidad_',
-    fechaRecepcion: '2025-08-08 09:20',
-    estado: 'Pendiente',
-    tamanio: '856 KB',
-    procesoAsociado: 'Actualización de Clientes',
-    enlaceDetalle: '#'
-  },
-  {
-    banco: 'BBVA',
-    nombreArchivo: '004_Innmediatas_Masivas_',
-    fechaRecepcion: '2025-08-08 08:50',
-    estado: 'Error',
-    tamanio: '512 KB',
-    procesoAsociado: 'Validación de Pagos',
-    enlaceDetalle: '#'
-  },
-    {
-    banco: 'BBVA',
-    nombreArchivo: '004_Validacion_Titularidad_',
-    fechaRecepcion: '2025-08-08 08:50',
-    estado: 'Error',
-    tamanio: '512 KB',
-    procesoAsociado: 'Validación de Pagos',
-    enlaceDetalle: '#'
+    enlaceDescarga: 'assets/logs/0011MASIVAS20251002230101.rpta.csv.pgp'
   },
   {
     banco: 'Scotiabank',
-    nombreArchivo: '005_Inmmediatas_Masivas_',
-    fechaRecepcion: '2025-08-07 17:15',
-    estado: 'Procesado',
-    tamanio: '2.4 MB',
-    procesoAsociado: 'Consolidación de Transferencias',
-    enlaceDetalle: '#'
+    nombreArchivo: '0023MASIVAS20251020162056',
+    fechaRecepcion: '2025-10-20 09:20',
+    estado: 'Pendiente',
+    tamanio: '856 KB',
+    procesoAsociado: 'Actualización de Clientes',
+    enlaceDescarga: 'assets/logs/0023MASIVAS20251020162056.rpta.csv.pgp'
+  },
+  {
+    banco: 'Scotiabank',
+    nombreArchivo: '0023MASIVAS20251020162057',
+    fechaRecepcion: '2025-10-20 09:20',
+    estado: 'Pendiente',
+    tamanio: '856 KB',
+    procesoAsociado: 'Actualización de Clientes',
+    enlaceDescarga: 'assets/logs/0023MASIVAS20251020162057.rpta.csv.pgp'
+  },
+  {
+    banco: 'BBVA',
+    nombreArchivo: '0035MASIVAS20251020154801',
+    fechaRecepcion: '2025-10-20 08:50',
+    estado: 'Error',
+    tamanio: '512 KB',
+    procesoAsociado: 'Validación de Pagos',
+    enlaceDescarga: 'assets/logs/0035MASIVAS20251020154801.rpta.csv.pgp'
   },
     {
-    banco: 'Scotiabank',
-    nombreArchivo: '005_Validacion_Titularidad_',
-    fechaRecepcion: '2025-08-07 17:15',
+    banco: 'BBVA',
+    nombreArchivo: '0035MASIVAS20251021121001',
+    fechaRecepcion: '2025-10-21 08:50',
+    estado: 'Error',
+    tamanio: '512 KB',
+    procesoAsociado: 'Validación de Pagos',
+    enlaceDescarga: 'assets/logs/0035MASIVAS20251021121001.rpta.csv.pgp'
+  },
+  {
+    banco: 'BBVA',
+    nombreArchivo: '0035MASIVAS20251021123001',
+    fechaRecepcion: '2025-10-21 17:15',
     estado: 'Procesado',
     tamanio: '2.4 MB',
     procesoAsociado: 'Consolidación de Transferencias',
-    enlaceDetalle: '#'
+    enlaceDescarga: 'assets/logs/0035MASIVAS20251021123001.rpta.csv.pgp'
+  },
+    {
+    banco: 'Caja Huancayo',
+    nombreArchivo: '0099MASIVAS20251021142301',
+    fechaRecepcion: '2025-10-21 17:15',
+    estado: 'Procesado',
+    tamanio: '2.4 MB',
+    procesoAsociado: 'Consolidación de Transferencias',
+    enlaceDescarga: 'assets/logs/0099MASIVAS20251021142301.rpta.csv.pgp'
   },
   ];
 
@@ -133,7 +133,7 @@ export class DashboardServiciosComponent {
   }
 
 
-  bancos: string[] = ['BCP', 'BBVA', 'Interbank', 'Scotiabank'];
+  bancos: string[] = ['BCP', 'BBVA', 'Interbank', 'Scotiabank','Caja Huancayo'];
 
   aplicarFiltros() {
   this.registros = this.registrosOriginal.filter(reporte => {
@@ -146,10 +146,11 @@ export class DashboardServiciosComponent {
       (!fechaFin || fecha <= fechaFin);
 
     const prefijosBanco: Record<string, string> = {
-      BCP: "002_",
-      Interbank: "003_",
-      BBVA: "004_",
-      Scotiabank: "005_"
+      BCP: "0011",
+      Interbank: "0003",
+      BBVA: "0035",
+      Scotiabank: "0023",
+       "Caja Huancayo": "0099"
     };
 
     let cumpleBanco = true;

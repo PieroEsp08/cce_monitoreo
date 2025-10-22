@@ -20,15 +20,6 @@
     </select>
   </div>
 
-  <!-- Filtro por banco -->
-  <div class="filter-item">
-    <label for="banco">Banco:</label>
-    <select id="banco" [(ngModel)]="filtros.banco">
-      <option value="">Todos</option>
-      <option *ngFor="let banco of bancos" [value]="banco">{{ banco }}</option>
-    </select>
-  </div>
-
   <!-- Botón -->
   <div class="filter-item filter-button">
     <button (click)="aplicarFiltros()">Filtrar</button>
@@ -47,7 +38,6 @@
         <th>Formato</th>
         <th>Tamaño</th>
         <th>Descargar</th>
-        <th>Ver Detalle</th>
       </tr>
     </thead>
     <tbody>
@@ -61,8 +51,12 @@
         <td>{{ reporte.estado }}</td>
         <td>{{ reporte.formato }}</td>
         <td>{{ reporte.tamanio }}</td>
-        <td><a [href]="reporte.enlaceDescarga" target="_blank">Descargar</a></td>
-        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+        <td><a 
+          [href]="reporte.enlaceDescarga" 
+          [attr.download]="reporte.nombre + '.csv'"
+        >
+          Descargar
+  </a></td>
       </tr>
     </tbody>
   </table>

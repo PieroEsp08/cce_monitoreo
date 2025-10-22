@@ -1,0 +1,367 @@
+2025-10-20->01:30 | 01:30:01 ###### Iniciando Automatizacion del proceso de listados de Directorio
+----------
+/home/appTEST/appcce/pgp/scripts/utilidadesPGP.sh
+/home/appTEST/appcce/listado_directorio_entidades/scripts/utilidades.sh
+2025-10-20->01:30 | 01:30:01 Iniciando generación de los listados de Directorio
+2025-10-20->01:30 | 01:30:01 ... generando archivo : 0003DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:04 ...... archivo creado.
+2025-10-20->01:30 | 01:30:04 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0003DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:04 ......... encriptado OK
+2025-10-20->01:30 | 01:30:04 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:04 ... generando archivo : 0004DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:07 ...... archivo creado.
+2025-10-20->01:30 | 01:30:07 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0004DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:07 ......... encriptado OK
+2025-10-20->01:30 | 01:30:07 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:07 ... generando archivo : 0005DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:09 ...... archivo creado.
+2025-10-20->01:30 | 01:30:09 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0005DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:09 ......... encriptado OK
+2025-10-20->01:30 | 01:30:09 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:09 ... generando archivo : 0009DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:12 ...... archivo creado.
+2025-10-20->01:30 | 01:30:12 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0009DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:12 ......... encriptado OK
+2025-10-20->01:30 | 01:30:12 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:12 ... generando archivo : 0011DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:15 ...... archivo creado.
+2025-10-20->01:30 | 01:30:15 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0011DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:15 ......... encriptado OK
+2025-10-20->01:30 | 01:30:15 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:15 ... generando archivo : 0018DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:17 ...... archivo creado.
+2025-10-20->01:30 | 01:30:17 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0018DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:17 ......... encriptado OK
+2025-10-20->01:30 | 01:30:17 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:17 ... generando archivo : 0023DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:20 ...... archivo creado.
+2025-10-20->01:30 | 01:30:20 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0023DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:20 ......... encriptado OK
+2025-10-20->01:30 | 01:30:20 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:20 ... generando archivo : 0035DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:23 ...... archivo creado.
+2025-10-20->01:30 | 01:30:23 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0035DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:23 ......... encriptado OK
+2025-10-20->01:30 | 01:30:23 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:23 ... generando archivo : 0038DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:26 ...... archivo creado.
+2025-10-20->01:30 | 01:30:26 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0038DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:26 ......... encriptado OK
+2025-10-20->01:30 | 01:30:26 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:26 ... generando archivo : 0043DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:28 ...... archivo creado.
+2025-10-20->01:30 | 01:30:28 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0043DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:28 ......... encriptado OK
+2025-10-20->01:30 | 01:30:28 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:28 ... generando archivo : 0049DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:31 ...... archivo creado.
+2025-10-20->01:30 | 01:30:31 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0049DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:31 ......... encriptado OK
+2025-10-20->01:30 | 01:30:31 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:31 ... generando archivo : 0053DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:34 ...... archivo creado.
+2025-10-20->01:30 | 01:30:34 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0053DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:34 ......... encriptado OK
+2025-10-20->01:30 | 01:30:34 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:34 ... generando archivo : 0054DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:36 ...... archivo creado.
+2025-10-20->01:30 | 01:30:36 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0054DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:36 ......... encriptado OK
+2025-10-20->01:30 | 01:30:36 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:36 ... generando archivo : 0055DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:39 ...... archivo creado.
+2025-10-20->01:30 | 01:30:39 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0055DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:39 ......... encriptado OK
+2025-10-20->01:30 | 01:30:39 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:39 ... generando archivo : 0056DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:42 ...... archivo creado.
+2025-10-20->01:30 | 01:30:42 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0056DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:42 ......... encriptado OK
+2025-10-20->01:30 | 01:30:42 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:42 ... generando archivo : 0073DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:45 ...... archivo creado.
+2025-10-20->01:30 | 01:30:45 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0073DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:45 ......... encriptado OK
+2025-10-20->01:30 | 01:30:45 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:45 ... generando archivo : 0091DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:48 ...... archivo creado.
+2025-10-20->01:30 | 01:30:48 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0091DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:48 ......... encriptado OK
+2025-10-20->01:30 | 01:30:48 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:48 ... generando archivo : 0094DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:50 ...... archivo creado.
+2025-10-20->01:30 | 01:30:50 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0094DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:51 ......... encriptado OK
+2025-10-20->01:30 | 01:30:51 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:51 ... generando archivo : 0096DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:53 ...... archivo creado.
+2025-10-20->01:30 | 01:30:53 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0096DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:53 ......... encriptado OK
+2025-10-20->01:30 | 01:30:53 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:53 ... generando archivo : 0099DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:56 ...... archivo creado.
+2025-10-20->01:30 | 01:30:56 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0099DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:56 ......... encriptado OK
+2025-10-20->01:30 | 01:30:56 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:56 ... generando archivo : 0775DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:59 ...... archivo creado.
+2025-10-20->01:30 | 01:30:59 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0775DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:30:59 ......... encriptado OK
+2025-10-20->01:30 | 01:30:59 ...... archivo encriptado.
+2025-10-20->01:30 | 01:30:59 ... generando archivo : 0776DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:01 ...... archivo creado.
+2025-10-20->01:30 | 01:31:01 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0776DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:01 ......... encriptado OK
+2025-10-20->01:30 | 01:31:01 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:01 ... generando archivo : 0800DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:04 ...... archivo creado.
+2025-10-20->01:30 | 01:31:04 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0800DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:04 ......... encriptado OK
+2025-10-20->01:30 | 01:31:04 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:04 ... generando archivo : 0801DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:07 ...... archivo creado.
+2025-10-20->01:30 | 01:31:07 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0801DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:07 ......... encriptado OK
+2025-10-20->01:30 | 01:31:07 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:07 ... generando archivo : 0802DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:10 ...... archivo creado.
+2025-10-20->01:30 | 01:31:10 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0802DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:10 ......... encriptado OK
+2025-10-20->01:30 | 01:31:10 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:10 ... generando archivo : 0803DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:12 ...... archivo creado.
+2025-10-20->01:30 | 01:31:12 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0803DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:12 ......... encriptado OK
+2025-10-20->01:30 | 01:31:12 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:12 ... generando archivo : 0805DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:15 ...... archivo creado.
+2025-10-20->01:30 | 01:31:15 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0805DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:15 ......... encriptado OK
+2025-10-20->01:30 | 01:31:15 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:15 ... generando archivo : 0806DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:18 ...... archivo creado.
+2025-10-20->01:30 | 01:31:18 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0806DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:18 ......... encriptado OK
+2025-10-20->01:30 | 01:31:18 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:18 ... generando archivo : 0808DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:21 ...... archivo creado.
+2025-10-20->01:30 | 01:31:21 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0808DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:21 ......... encriptado OK
+2025-10-20->01:30 | 01:31:21 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:21 ... generando archivo : 0809DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:23 ...... archivo creado.
+2025-10-20->01:30 | 01:31:23 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0809DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:23 ......... encriptado OK
+2025-10-20->01:30 | 01:31:23 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:23 ... generando archivo : 0813DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:26 ...... archivo creado.
+2025-10-20->01:30 | 01:31:26 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0813DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:26 ......... encriptado OK
+2025-10-20->01:30 | 01:31:26 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:26 ... generando archivo : 0849DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:29 ...... archivo creado.
+2025-10-20->01:30 | 01:31:29 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0849DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:29 ......... encriptado OK
+2025-10-20->01:30 | 01:31:29 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:29 ... generando archivo : 0910DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:31 ...... archivo creado.
+2025-10-20->01:30 | 01:31:31 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0910DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:31 ......... encriptado OK
+2025-10-20->01:30 | 01:31:31 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:31 ... generando archivo : 0921DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:34 ...... archivo creado.
+2025-10-20->01:30 | 01:31:34 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0921DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:34 ......... encriptado OK
+2025-10-20->01:30 | 01:31:34 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:34 ... generando archivo : 0922DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:37 ...... archivo creado.
+2025-10-20->01:30 | 01:31:37 ...... encriptando /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0922DIRECTORIO20251020.csv
+2025-10-20->01:30 | 01:31:37 ......... encriptado OK
+2025-10-20->01:30 | 01:31:37 ...... archivo encriptado.
+2025-10-20->01:30 | 01:31:37 Generacion de listados terminado
+2025-10-20->01:30 | 01:31:37  
+2025-10-20->01:30 | 01:31:37 Iniciamos el proceso de subida de archivos al servidor SFTP
+2025-10-20->01:30 | 01:31:37 ... Preparando subida de archivos en servidor SFTP
+2025-10-20->01:30 | 01:31:37 ...... Directorio de subida : 
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0003DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0004DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0005DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0009DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0011DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0018DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0023DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0035DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0038DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0043DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0049DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0053DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0054DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0055DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0056DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0073DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0091DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0094DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0096DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0099DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0775DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0776DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0800DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0801DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0802DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0803DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0805DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0806DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0808DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0809DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0813DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0849DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0910DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0921DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ......... encontrando 0922DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:37 ... Realizando subida al servidor SFTP
+2025-10-20->01:30 | 01:31:38 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0003/listado_directorio/0003DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:38 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0004/listado_directorio/0004DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:39 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0005/listado_directorio/0005DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:39 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0009/listado_directorio/0009DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:39 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0011/listado_directorio/0011DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:40 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0018/listado_directorio/0018DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:40 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0023/listado_directorio/0023DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:41 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0035/listado_directorio/0035DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:41 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0038/listado_directorio/0038DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:41 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0043/listado_directorio/0043DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:42 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0049/listado_directorio/0049DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:42 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0053/listado_directorio/0053DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:43 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0054/listado_directorio/0054DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:43 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0055/listado_directorio/0055DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:43 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0056/listado_directorio/0056DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:44 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0073/listado_directorio/0073DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:44 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0091/listado_directorio/0091DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:45 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0094/listado_directorio/0094DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:45 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0096/listado_directorio/0096DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:45 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0099/listado_directorio/0099DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:46 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0775/listado_directorio/0775DIRECTORIO20251020.csv.pgp
+dest open "/sftpEntidades/sftpTEST/sftpTEST0776/listado_directorio/": No such file or directory
+2025-10-20->01:30 | 01:31:46 ...... error en subida /sftpEntidades/sftpTEST/sftpTEST0776/listado_directorio/0776DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:47 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0800/listado_directorio/0800DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:47 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0801/listado_directorio/0801DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:47 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0802/listado_directorio/0802DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:48 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0803/listado_directorio/0803DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:48 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0805/listado_directorio/0805DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:49 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0806/listado_directorio/0806DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:49 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0808/listado_directorio/0808DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:49 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0809/listado_directorio/0809DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:50 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0813/listado_directorio/0813DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:50 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0849/listado_directorio/0849DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:51 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0910/listado_directorio/0910DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:51 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0921/listado_directorio/0921DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:51 ...... subiendo /sftpEntidades/sftpTEST/sftpTEST0922/listado_directorio/0922DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:51 ... Realizando cierre en el servidor SFTP
+2025-10-20->01:30 | 01:31:51 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0003DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:52 ...... asegurando /sftpEntidades/sftpTEST/sftp0003listado_directorio/0003DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:52 ...... ...
+2025-10-20->01:30 | 01:31:52 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0004DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:52 ...... asegurando /sftpEntidades/sftpTEST/sftp0004listado_directorio/0004DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:52 ...... ...
+2025-10-20->01:30 | 01:31:52 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0005DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... asegurando /sftpEntidades/sftpTEST/sftp0005listado_directorio/0005DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... ...
+2025-10-20->01:30 | 01:31:53 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0009DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... asegurando /sftpEntidades/sftpTEST/sftp0009listado_directorio/0009DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... ...
+2025-10-20->01:30 | 01:31:53 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0011DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... asegurando /sftpEntidades/sftpTEST/sftp0011listado_directorio/0011DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:53 ...... ...
+2025-10-20->01:30 | 01:31:53 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0018DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:54 ...... asegurando /sftpEntidades/sftpTEST/sftp0018listado_directorio/0018DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:54 ...... ...
+2025-10-20->01:30 | 01:31:54 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0023DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:54 ...... asegurando /sftpEntidades/sftpTEST/sftp0023listado_directorio/0023DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:54 ...... ...
+2025-10-20->01:30 | 01:31:54 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0035DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:55 ...... asegurando /sftpEntidades/sftpTEST/sftp0035listado_directorio/0035DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:55 ...... ...
+2025-10-20->01:30 | 01:31:55 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0038DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:55 ...... asegurando /sftpEntidades/sftpTEST/sftp0038listado_directorio/0038DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:55 ...... ...
+2025-10-20->01:30 | 01:31:55 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0043DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... asegurando /sftpEntidades/sftpTEST/sftp0043listado_directorio/0043DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... ...
+2025-10-20->01:30 | 01:31:56 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0049DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... asegurando /sftpEntidades/sftpTEST/sftp0049listado_directorio/0049DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... ...
+2025-10-20->01:30 | 01:31:56 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0053DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... asegurando /sftpEntidades/sftpTEST/sftp0053listado_directorio/0053DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:56 ...... ...
+2025-10-20->01:30 | 01:31:56 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0054DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:57 ...... asegurando /sftpEntidades/sftpTEST/sftp0054listado_directorio/0054DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:57 ...... ...
+2025-10-20->01:30 | 01:31:57 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0055DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:57 ...... asegurando /sftpEntidades/sftpTEST/sftp0055listado_directorio/0055DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:57 ...... ...
+2025-10-20->01:30 | 01:31:57 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0056DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:58 ...... asegurando /sftpEntidades/sftpTEST/sftp0056listado_directorio/0056DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:58 ...... ...
+2025-10-20->01:30 | 01:31:58 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0073DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:58 ...... asegurando /sftpEntidades/sftpTEST/sftp0073listado_directorio/0073DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:58 ...... ...
+2025-10-20->01:30 | 01:31:58 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0091DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... asegurando /sftpEntidades/sftpTEST/sftp0091listado_directorio/0091DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... ...
+2025-10-20->01:30 | 01:31:59 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0094DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... asegurando /sftpEntidades/sftpTEST/sftp0094listado_directorio/0094DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... ...
+2025-10-20->01:30 | 01:31:59 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0096DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... asegurando /sftpEntidades/sftpTEST/sftp0096listado_directorio/0096DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:31:59 ...... ...
+2025-10-20->01:30 | 01:31:59 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0099DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:00 ...... asegurando /sftpEntidades/sftpTEST/sftp0099listado_directorio/0099DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:00 ...... ...
+2025-10-20->01:30 | 01:32:00 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0775DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:00 ...... asegurando /sftpEntidades/sftpTEST/sftp0775listado_directorio/0775DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:00 ...... ...
+2025-10-20->01:30 | 01:32:00 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0776DIRECTORIO20251020.csv.pgp
+chattr: No such file or directory while trying to stat /sftpEntidades/sftpTEST/sftpTEST0776/listado_directorio/0776DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... error en seguro /sftpEntidades/sftpTEST/sftp0776listado_directorio/0776DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... ...
+2025-10-20->01:30 | 01:32:01 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0800DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... asegurando /sftpEntidades/sftpTEST/sftp0800listado_directorio/0800DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... ...
+2025-10-20->01:30 | 01:32:01 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0801DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... asegurando /sftpEntidades/sftpTEST/sftp0801listado_directorio/0801DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:01 ...... ...
+2025-10-20->01:30 | 01:32:01 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0802DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:02 ...... asegurando /sftpEntidades/sftpTEST/sftp0802listado_directorio/0802DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:02 ...... ...
+2025-10-20->01:30 | 01:32:02 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0803DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:02 ...... asegurando /sftpEntidades/sftpTEST/sftp0803listado_directorio/0803DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:02 ...... ...
+2025-10-20->01:30 | 01:32:02 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0805DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:03 ...... asegurando /sftpEntidades/sftpTEST/sftp0805listado_directorio/0805DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:03 ...... ...
+2025-10-20->01:30 | 01:32:03 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0806DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:03 ...... asegurando /sftpEntidades/sftpTEST/sftp0806listado_directorio/0806DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:03 ...... ...
+2025-10-20->01:30 | 01:32:03 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0808DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... asegurando /sftpEntidades/sftpTEST/sftp0808listado_directorio/0808DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... ...
+2025-10-20->01:30 | 01:32:04 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0809DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... asegurando /sftpEntidades/sftpTEST/sftp0809listado_directorio/0809DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... ...
+2025-10-20->01:30 | 01:32:04 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0813DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... asegurando /sftpEntidades/sftpTEST/sftp0813listado_directorio/0813DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:04 ...... ...
+2025-10-20->01:30 | 01:32:04 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0849DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:05 ...... asegurando /sftpEntidades/sftpTEST/sftp0849listado_directorio/0849DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:05 ...... ...
+2025-10-20->01:30 | 01:32:05 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0910DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:05 ...... asegurando /sftpEntidades/sftpTEST/sftp0910listado_directorio/0910DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:05 ...... ...
+2025-10-20->01:30 | 01:32:05 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0921DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:06 ...... asegurando /sftpEntidades/sftpTEST/sftp0921listado_directorio/0921DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:06 ...... ...
+2025-10-20->01:30 | 01:32:06 ...... comprimiendo /home/appTEST/appcce/listado_directorio_entidades/archivos/respuesta/0922DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:06 ...... asegurando /sftpEntidades/sftpTEST/sftp0922listado_directorio/0922DIRECTORIO20251020.csv.pgp
+2025-10-20->01:30 | 01:32:06 ...... ...
+2025-10-20->01:30 | 01:32:06 Proceso de subida SFTP finalizado.
+2025-10-20->01:30 | 01:32:06 ------ Fin de Automatizacion ------
+2025-10-20->01:30 | 01:32:06  

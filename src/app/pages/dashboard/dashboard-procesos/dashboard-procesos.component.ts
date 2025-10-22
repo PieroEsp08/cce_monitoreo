@@ -1,20 +1,28 @@
 import { Component, DestroyRef, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { interval } from 'rxjs';
+import { interval, Subscription } from 'rxjs';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 
 
 @Component({
   selector: 'app-dashboard-procesos',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HttpClientModule],
   templateUrl: './dashboard-procesos.component.html',
   styleUrl: './dashboard-procesos.component.css'
 })
 export class DashboardProcesosComponent {
 
   private readonly destroyRef = inject(DestroyRef);
+
+  private http = inject(HttpClient);
+
+  mostrarModal = false;
+  procesoSeleccionado: any = null;
+  logContenido: string[] = [];
+  private logIntervalSub?: Subscription;
 
   registros = [
     {
@@ -25,7 +33,7 @@ export class DashboardProcesosComponent {
       proximaEjecucion: '2025-08-09 06:00',
       duracion: '—',
       resultado: 'Éxito',
-      enlaceDetalle: '#',
+      enlaceDetalle: 'assets/logs/20251021_inmediatas_masivas.log',
       segundosRandom: 0
     },
     {
@@ -36,7 +44,7 @@ export class DashboardProcesosComponent {
       proximaEjecucion: '2025-08-09 05:00',
       duracion: '—',
       resultado: 'Pendiente',
-      enlaceDetalle: '#',
+      enlaceDetalle: 'assets/logs/20251020_validacion_titularidad.log',
       segundosRandom: 0
     },
     {
@@ -58,7 +66,7 @@ export class DashboardProcesosComponent {
       proximaEjecucion: '2025-08-09 15:30',
       duracion: '—',
       resultado: 'Advertencias detectadas',
-      enlaceDetalle: '#',
+      enlaceDetalle: 'assets/logs/20251020_listado_directorio_entidades.log',
       segundosRandom: 0
     },
     {
@@ -69,18 +77,18 @@ export class DashboardProcesosComponent {
       proximaEjecucion: '2025-08-09 10:45',
       duracion: '—',
       resultado: 'Éxito',
-      enlaceDetalle: '#',
+      enlaceDetalle: 'assets/logs/20251021_reporte_bcrp_interoperabilidad.log',
       segundosRandom: 0
     },
     {
-      nombreProceso: 'Reporte Ciruclar',
+      nombreProceso: 'Reporte Circular',
       estado: 'En pausa',
       ultimaEjecucion: '',
       tiempoProceso:'—',
       proximaEjecucion: '2025-08-09 06:30',
       duracion: '—',
       resultado: 'Pendiente',
-      enlaceDetalle: '#',
+      enlaceDetalle: 'assets/logs/20251021_reporte_circular_bcrp.log',
       segundosRandom: 0
     },
   ];
@@ -157,7 +165,7 @@ export class DashboardProcesosComponent {
   private obtenerMinutosSegunProceso(nombre: string): number {
     if (['Innmediatas Masivas', 'Validación Titularidad', 'Carga Directorio'].includes(nombre)) {
       return 1;
-    } else if (['Listado Directorio', 'Reporte BCRP', 'Reporte Ciruclar'].includes(nombre)) {
+    } else if (['Listado Directorio', 'Reporte BCRP', 'Reporte Circular'].includes(nombre)) {
       return 2;
     }
     return 0;
@@ -173,10 +181,48 @@ export class DashboardProcesosComponent {
   return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
-verDetalle(event: Event) {
-  event.preventDefault(); // Evita que el navegador haga la navegación
-  console.log('Click en ver detalle');
-  // Por ahora no haces nada
-}
+verDetalle(event: Event, registro: any) {
+    event.preventDefault();
+    this.procesoSeleccionado = registro;
+    this.mostrarModal = true;
+    if (registro.enlaceDetalle && registro.enlaceDetalle !== '#') {
+      this.cargarLogAnimado(registro.enlaceDetalle);
+    } else {
+      this.logContenido = ['No hay log disponible para este proceso.'];
+    }
+
+  }
+
+  cerrarModal() {
+    this.mostrarModal = false;
+    this.procesoSeleccionado = null;
+  }
+
+  private cargarLogAnimado(ruta: string) {
+    this.logContenido = ['Cargando log...'];
+
+    this.http.get(ruta, { responseType: 'text' }).subscribe({
+      next: (data) => {
+        const lineas = data.split('\n');
+        this.logContenido = [];
+        let index = 0;
+
+        this.logIntervalSub?.unsubscribe();
+
+        this.logIntervalSub = interval(500).subscribe(() => {
+          if (index < lineas.length) {
+            this.logContenido.push(lineas[index]);
+            index++;
+          } else {
+            this.logIntervalSub?.unsubscribe();
+          }
+        });
+      },
+      error: () => {
+        this.logContenido = ['No se pudo cargar el archivo log.'];
+      }
+    });
+  }
+  
 
 }

@@ -52,7 +52,13 @@
         <td>{{ reporte.estado }}</td>
         <td>{{ reporte.tamanio }}</td>
         <td>{{ reporte.procesoAsociado }}</td>
-        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+        <td><a 
+              [href]="reporte.enlaceDescarga"
+              [attr.download]="reporte.nombreArchivo + '.rpta.csv.pgp'"
+            >
+              Descargar
+            </a>
+        </td>
       </tr>
 
     </tbody>

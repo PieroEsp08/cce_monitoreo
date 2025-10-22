@@ -1,0 +1,5 @@
+Id Entidad;Nombre de la Entidad Regulada;Rol de la Entidad Regulada;Calidad del Servicio;Ano;Mes;Dia;ICD por medir;Funcionalidad Especifica;Tipo ICD;Cantidad de Consultas Totales del Dia (Exitos);(Cantidad de Consultas Totales del Dia (Exitos) <= t segundos);Cant. Consultas Totales >= tmax;ICD Resultado;Comentarios
+5400;CCE;GESTOR DIRECTORIO;Rendimiento;2025;10;20;BUSQUEDA ALIAS;Barrido;PERCENTIL;369;201;;54.47;
+5400;CCE;GESTOR DIRECTORIO;Rendimiento;2025;10;20;BUSQUEDA ALIAS;LookUp;PERCENTIL;762;747;;98.03;
+5400;CCE;GESTOR DIRECTORIO;Rendimiento;2025;10;20;BUSQUEDA ALIAS;Barrido;TIEMPO MAXIMO;369;;168;45.53;
+5400;CCE;GESTOR DIRECTORIO;Rendimiento;2025;10;20;BUSQUEDA ALIAS;LookUp;TIEMPO MAXIMO;762;;15;1.97;

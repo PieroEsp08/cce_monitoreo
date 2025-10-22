@@ -37,8 +37,39 @@
         <td>{{ reporte.proximaEjecucion }}</td>
         <td>{{ reporte.duracion }}</td>
         <td>{{ reporte.resultado }}</td>
-        <td><a href="#" (click)="verDetalle($event)">Ver detalle</a></td>
+        <td><a 
+              href="#" 
+              (click)="reporte.estado === 'En ejecución' && verDetalle($event, reporte)" 
+              [class.disabled-link]="reporte.estado !== 'En ejecución'">
+              Ver detalle
+            </a>
+        </td>
       </tr>
     </tbody>
   </table>
+</div>
+
+
+<div class="modal-overlay" *ngIf="mostrarModal">
+   <div class="modal-content">
+    <h2>Detalle del proceso</h2>
+
+    <div class="modal-body" *ngIf="procesoSeleccionado">
+      <p><strong>Nombre del proceso:</strong> {{ procesoSeleccionado.nombreProceso }}</p>
+      <p><strong>Estado:</strong> {{ procesoSeleccionado.estado }}</p>
+      <p><strong>Última ejecución:</strong> {{ procesoSeleccionado.ultimaEjecucion }}</p>
+      <p><strong>Duración:</strong> {{ procesoSeleccionado.duracion }}</p>
+
+      <h3>Archivo Log</h3>
+      <pre class="log-viewer">
+        <ng-container *ngFor="let linea of logContenido">
+          {{ linea }}
+        </ng-container>
+      </pre>
+    </div>
+
+      <div class="modal-actions">
+      <button class="btn-cerrar" (click)="cerrarModal()">Cerrar</button>
+    </div>
+  </div>
 </div>

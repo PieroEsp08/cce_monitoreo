@@ -1,0 +1,51 @@
+2025-10-21->02:30 | 02:30:01 ###### Generación de reportes BCRP - circular 9
+2025-10-21->02:30 | 02:30:01 -------------------------------------------------------------------------
+2025-10-21->02:30 | 02:30:01 Usar SFTP : NO 
+2025-10-21->02:30 | 02:30:01 -------------------------------------------------------------------------
+2025-10-21->02:30 | 02:30:01 ... Eliminando datos temporales de la BD del H2
+removed '/home/appTEST/appcce/reporte_circular_bcrp/data/h2/bd_circular_bcrp.mv.db'
+2025-10-21->02:30 | 02:30:01  
+2025-10-21->02:30 | 02:30:01  
+2025-10-21->02:30 | 02:30:01 ... procesando archivo 1/7 : CCE_DNM_DATOS_PROV_DIRE - Anexo 21, Reporte de Consultas desde Gestores de Directorios.
+2025-10-21->02:30 | 02:30:01 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 1 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:05 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:05 ... comprimiendo archivo: gzip CCE_DNM_DATOS_PROV_DIRE_20102025.csv
+2025-10-21->02:30 | 02:30:05 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:05  
+2025-10-21->02:30 | 02:30:05 ... procesando archivo 2/7 : CCE_DNM_INCI_PROV_DIRE - Anexo 21, Resumen consultas e incidentes por Proveedor de Directorio.
+2025-10-21->02:30 | 02:30:05 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 2 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:09 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:09 ... comprimiendo archivo: gzip CCE_DNM_INCI_PROV_DIRE_20102025.csv
+2025-10-21->02:30 | 02:30:09 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:09  
+2025-10-21->02:30 | 02:30:09 ... procesando archivo 3/7 : CCE_TRANSF_DATOS - Anexo 22, Reporte de Transferencias desde Procesadores de Pago.
+2025-10-21->02:30 | 02:30:09 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 3 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:13 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:13 ... comprimiendo archivo: gzip CCE_TRANSF_DATOS_20102025.csv
+2025-10-21->02:30 | 02:30:13 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:13  
+2025-10-21->02:30 | 02:30:13 ... procesando archivo 4/7 : CCE_PROC_RES_TRANS_BENEF - Anexo 22, Resumen total de transacciones y fallos.
+2025-10-21->02:30 | 02:30:13 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 4 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:17 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:17 ... comprimiendo archivo: gzip CCE_PROC_RES_TRANS_BENEF_20102025.csv
+2025-10-21->02:30 | 02:30:17 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:17  
+2025-10-21->02:30 | 02:30:17 ... procesando archivo 5/7 : CCE_PROC_RES_INCI_TRANS_BENEF - Anexo 22, Resumen transferencias e incidentes por Entidad Beneficiaria.
+2025-10-21->02:30 | 02:30:17 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 5 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:21 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:21 ... comprimiendo archivo: gzip CCE_PROC_RES_INCI_TRANS_BENEF_20102025.csv
+2025-10-21->02:30 | 02:30:21 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:21  
+2025-10-21->02:30 | 02:30:21 ... procesando archivo 6/7 : CCE_DNM_REND - Anexo 18, ICD DE RENDIMIENTO (BÚSQUEDA DE ALIAS o TRANSFERENCIA) - PERCENTIL.
+2025-10-21->02:30 | 02:30:21 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 6 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:25 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:25 ... comprimiendo archivo: gzip CCE_DNM_REND_20102025.csv
+2025-10-21->02:30 | 02:30:25 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:25  
+2025-10-21->02:30 | 02:30:25 ... procesando archivo 7/7 : CCE_PROC_REND - Anexo 18, ICD DE RENDIMIENTO (BÚSQUEDA DE ALIAS o TRANSFERENCIA) – TIEMPO MÁXIMO.
+2025-10-21->02:30 | 02:30:25 ... Ejecutando : java -jar /home/appTEST/appcce/reporte_circular_bcrp/reporte_circular_bcrp.jar -r 7 -f /home/appTEST/appcce/reporte_circular_bcrp/archivos/generados/ -s
+2025-10-21->02:30 | 02:30:30 ... ... reporte generado.
+2025-10-21->02:30 | 02:30:30 ... comprimiendo archivo: gzip CCE_PROC_REND_20102025.csv
+2025-10-21->02:30 | 02:30:30 ... ... Zipeado Terminado.
+2025-10-21->02:30 | 02:30:30 ------ Fin de Proceso ------
+2025-10-21->02:30 | 02:30:30 

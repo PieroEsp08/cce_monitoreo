@@ -132,9 +132,9 @@ export class DashboardLogsComponent {
 
 ];
 
-registros = [...this.registrosOriginal];
+  registros = [...this.registrosOriginal];
 
-  procesos: string[] = ['Innmediatas Masivas', 'Validación', 'Titularidad', 'Carga Directorio','Listado Directorio','Reporte BCRP','Reporte Ciruclar'];
+  procesos: string[] = ['Innmediatas Masivas', 'Validación', 'Titularidad', 'Carga Directorio','Listado Directorio','Reporte BCRP','Reporte Circular'];
 
   logContenido: string = '';
 
