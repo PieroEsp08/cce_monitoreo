@@ -120,7 +120,7 @@ export class DashboardProcesosComponent {
 
           // Iniciar ejecución si el estado es "En pausa" y la hora actual >= proximaEjecucion
           if (registro.estado === 'En pausa' && ahora >= proxima) {
-            const segundosRandom = Math.floor(Math.random() * 15) + 1; // 1-15 segundos
+            const segundosRandom = Math.floor(Math.random() * 11) + 15; // 15-25 segundos
             return {
               ...registro,
               estado: 'En ejecución',
@@ -209,7 +209,7 @@ verDetalle(event: Event, registro: any) {
 
         this.logIntervalSub?.unsubscribe();
 
-        this.logIntervalSub = interval(500).subscribe(() => {
+        this.logIntervalSub = interval(200).subscribe(() => {
           if (index < lineas.length) {
             this.logContenido.push(lineas[index]);
             index++;

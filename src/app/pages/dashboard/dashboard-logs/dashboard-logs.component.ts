@@ -21,7 +21,7 @@ export class DashboardLogsComponent {
   registrosOriginal = [
    {
     nombre: '20230814LISTADO_DIRECTORIO_ENTIDADES',
-    procesoOrigen: 'LISTADO_DIRECTORIO',
+    procesoOrigen: 'LISTADO DIRECTORIO',
     fechaGeneracion: '2023-08-14',
     estado: 'Completado',
     formato: 'LOG',
@@ -134,7 +134,7 @@ export class DashboardLogsComponent {
 
   registros = [...this.registrosOriginal];
 
-  procesos: string[] = ['Innmediatas Masivas', 'Validación', 'Titularidad', 'Carga Directorio','Listado Directorio','Reporte BCRP','Reporte Circular'];
+  procesos: string[] = ['INNMEDIATAS MASIVAS', 'VALIDACION TITULARIDAD', 'CARGA DIRECTORIO','LISTADO DIRECTORIO','REPORTE BCRP','REPORTE CIRCULAR'];
 
   logContenido: string = '';
 
